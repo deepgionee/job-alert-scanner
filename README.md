@@ -1,131 +1,80 @@
 # job-alert-scanner
 
-Real-time job alert system — notifies your audience the moment a new position is posted,
-so they can be among the first 100 applicants.
+Real-time job alert system — notifies your audience within minutes of a new job posting,
+helping them be among the first 100 applicants.
 
-Built on two pillars:
-- **Path A (preferred):** Direct JSON APIs exposed by ATS platforms (Greenhouse, Lever, Workday) — zero scraping, zero blocking risk, free to call
-- **Path B (custom pages):** [jackwener/OpenCLI](https://github.com/jackwener/opencli) — transforms any career page into a CLI tool by controlling your real Chrome session, so it looks like a human visitor
+## How it works
 
-## Quick start
+1. GitHub Actions runs this scanner every 5 minutes (free, 24/7, no server needed)
+2. Fetches jobs from Greenhouse, Lever, and Ashby ATS public APIs
+3. Compares against previously seen jobs (`data/seen_jobs.json`)
+4. Sends Telegram (or Slack/Discord) alerts for new postings only
+
+## Quick start (local test)
 
 ```bash
 git clone https://github.com/deepgionee/job-alert-scanner
 cd job-alert-scanner
 pip install pyyaml
 
-# Demo: fetch today's jobs from Notion (no config needed)
-python cli.py --demo
-
-# Full scan with new-job detection
-python cli.py --scan --dry-run    # preview only
-python cli.py --scan              # scan + send notifications
+python cli.py --demo            # live demo against Notion careers
+python cli.py --scan --dry-run  # scan all companies, no notifications
 ```
 
-## Configuration
+## Production setup (GitHub Actions + Telegram)
 
-### 1. Add companies to watch
+### Step 1 — Create a Telegram Bot
+1. Open Telegram → search **@BotFather** → send `/newbot`
+2. Follow prompts, get a token like `7123456789:ABCdef...`
 
-Edit `config/companies.yml`:
-```yaml
-companies:
-  - slug: notion       # greenhouse slug
-    ats: greenhouse
-  - slug: linear       # lever slug
-    ats: lever
-  - slug: anthropic    # custom page via OpenCLI
-    ats: opencli
-    url: https://www.anthropic.com/careers
-```
+### Step 2 — Create a Telegram Channel
+1. Create a new channel (e.g. "Job Alerts")
+2. Add your bot as **Admin** of the channel
+3. Send any message to the channel
+4. Find your channel's chat ID:
+   - Go to `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates`
+   - Look for `"chat":{"id": -100XXXXXXXXXX}` — that's your TELEGRAM_CHAT_ID
 
-**Finding the right slug:**
-- Greenhouse: check if `boards-api.greenhouse.io/v1/boards/SLUG/jobs` returns JSON
-- Lever: check if `jobs.lever.co/SLUG` exists
+### Step 3 — Add secrets to GitHub
+Go to your repo → **Settings → Secrets → Actions → New repository secret**
+- `TELEGRAM_BOT_TOKEN` → your bot token
+- `TELEGRAM_CHAT_ID`   → your channel chat ID (negative number, e.g. -1001234567890)
 
-### 2. Set notification channels (env vars)
+### Step 4 — Enable the workflow
+Go to **Actions tab** in GitHub → click "Job Alert Scanner" → click **"Run workflow"**
 
-```bash
-# Telegram (most popular for real-time alerts)
-export TELEGRAM_BOT_TOKEN="your_bot_token"
-export TELEGRAM_CHAT_ID="your_channel_id"
+That's it. It now runs every 5 minutes automatically.
 
-# Slack
-export SLACK_WEBHOOK_URL="https://hooks.slack.com/services/..."
+## Adding companies
 
-# Discord
-export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."
+Edit `config/companies.yml`. To find the right slug:
+- **Greenhouse**: try `boards-api.greenhouse.io/v1/boards/SLUG/jobs`
+- **Lever**: try `jobs.lever.co/SLUG`
+- **Ashby**: try `jobs.ashbyhq.com/SLUG`
 
-# Generic webhook (Zapier, Make, n8n, etc.)
-export WEBHOOK_URL="https://your-server.com/jobs"
-```
+## Notification channels
 
-### 3. Run on a schedule
+Set these as environment variables or GitHub Secrets:
 
-**Linux/Mac (cron — every 3 minutes):**
-```bash
-crontab -e
-# Add:
-*/3 * * * * cd /path/to/job-alert-scanner && python cli.py --scan >> logs/cron.log 2>&1
-```
-
-**Windows (Task Scheduler):**
-- Program: `python`
-- Arguments: `C:\path\to\job-alert-scanner\cli.py --scan`
-- Trigger: repeat every 3 minutes
-
-**GitHub Actions (every 5 minutes, free tier):**
-```yaml
-# .github/workflows/scan.yml
-on:
-  schedule:
-    - cron: '*/5 * * * *'
-jobs:
-  scan:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: pip install pyyaml
-      - run: python cli.py --scan
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
-```
-
-## For custom career pages (OpenCLI — Path B)
-
-Install OpenCLI:
-```bash
-npm install -g @jackwener/opencli
-```
-
-Then read `agents/AGENT.md` for instructions on writing a custom adapter for any career page.
-
-The key insight: OpenCLI reuses your real Chrome browser session — not a headless bot —
-so it is extremely hard to detect or block.
-
-## Why this beats batch scraping
-
-| Approach | Latency | Block risk | Cost |
-|---|---|---|---|
-| Daily batch scraper | Hours | High | Low |
-| This tool (3-min cron) | ~3 min | None (API) / Low (OpenCLI) | Free |
-| AI agent browsing loop | Variable | High | High (LLM tokens) |
-| Official webhooks | Instant | None | Free (if available) |
+| Secret | Channel |
+|---|---|
+| `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` | Telegram (recommended) |
+| `SLACK_WEBHOOK_URL` | Slack |
+| `DISCORD_WEBHOOK_URL` | Discord |
+| `WEBHOOK_URL` | Any custom endpoint |
 
 ## Repo structure
 
 ```
 job-alert-scanner/
-├── cli.py                 # main entry point
-├── config/
-│   └── companies.yml      # companies to watch
+├── cli.py                    # entry point
+├── config/companies.yml      # companies to watch
 ├── scanner/
-│   ├── greenhouse.py      # Greenhouse API client
-│   ├── lever.py           # Lever API client
-│   ├── store.py           # seen-jobs state (data/seen_jobs.json)
-│   └── notifier.py        # Telegram / Slack / Discord / webhook
-├── agents/
-│   └── AGENT.md           # OpenCLI adapter guide for custom pages
-└── data/
-    └── seen_jobs.json      # auto-created, tracks all seen job IDs
+│   ├── greenhouse.py         # Greenhouse API
+│   ├── lever.py              # Lever API
+│   ├── ashby.py              # Ashby API (Perplexity, ElevenLabs, Harvey...)
+│   ├── store.py              # seen-jobs state
+│   └── notifier.py           # Telegram / Slack / Discord
+├── data/seen_jobs.json       # auto-created, committed after each run
+└── .github/workflows/scan.yml
 ```
