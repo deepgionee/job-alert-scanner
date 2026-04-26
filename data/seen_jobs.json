@@ -1,0 +1,4045 @@
+{
+  "seen_ids": {
+    "2a357282-9d44-4b41-a249-c75ffe878ce2": {
+      "title": "Account Executive - Enterprise, (Consulting)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100013+00:00"
+    },
+    "7894fd8a-ffc9-4c89-87f0-f8a7b695cf01": {
+      "title": "Account Executive \u2013 AI for Citizens",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100031+00:00"
+    },
+    "618c9763-cb22-4343-baca-cf1cf6b05f5c": {
+      "title": "Account Executive, Digital Native US",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100034+00:00"
+    },
+    "ed08b81f-9c52-4f86-addd-c4c06f3b114a": {
+      "title": "Account Executive, Enterprise - New York",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100037+00:00"
+    },
+    "25757afe-9b9d-4be7-87e1-e744eaa01105": {
+      "title": "Account Executive, Enterprise - SF Bay Area",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100038+00:00"
+    },
+    "5fb6179e-74ae-46c8-9cde-95b71890e76a": {
+      "title": "Account Executive, Enterprise, DACH",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100040+00:00"
+    },
+    "46bf0c1c-cca2-4941-bd8d-18024fa59afa": {
+      "title": "Account Executive, Enterprise, France - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100042+00:00"
+    },
+    "04a3a058-aff8-4cc4-a419-eb09e83fa947": {
+      "title": "Account Executive, Enterprise, Netherlands",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100045+00:00"
+    },
+    "52808932-3aaa-419f-a08d-1fb2a0aed781": {
+      "title": "Account Executive, Enterprise, UK - London",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100048+00:00"
+    },
+    "abff0584-d2e2-446e-b2a8-28d660e3773a": {
+      "title": "Account Manager - Morocco",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100049+00:00"
+    },
+    "51a3b9c3-6679-4e24-85df-746cc0a8e565": {
+      "title": "Accounting Manager (R2R)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100051+00:00"
+    },
+    "daf03118-b649-4a1b-8f61-a4e86839fd7c": {
+      "title": "Accounts Payable Manager",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100053+00:00"
+    },
+    "9808a516-afa8-49a4-93e2-dfc6c616ea0b": {
+      "title": "AI Deployment Strategist - Australia",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100054+00:00"
+    },
+    "bb02882b-fb2e-4d06-9d5e-bd7654eee8e7": {
+      "title": "AI Deployment Strategist - Luxembourg",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100056+00:00"
+    },
+    "0cde829a-c9b9-4ee1-827f-9bd30c1810fc": {
+      "title": "AI Deployment Strategist - Marseille",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100057+00:00"
+    },
+    "c9e2dbb5-00ed-4096-ba88-ac0bdffb68fd": {
+      "title": "AI Deployment Strategist - MENA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100058+00:00"
+    },
+    "8f93bac1-1885-41ea-8650-cb5454be97e7": {
+      "title": "AI Deployment Strategist - Morocco",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100060+00:00"
+    },
+    "1937a5af-2c9b-4a75-bb91-b06ebe714dbd": {
+      "title": "AI Deployment Strategist - Munich, Germany",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100061+00:00"
+    },
+    "2aaf4e18-0943-4ebe-914d-cc9e32db8834": {
+      "title": "AI Deployment Strategist - Netherlands",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100063+00:00"
+    },
+    "f9697798-31f8-4809-87b6-05eeb5261353": {
+      "title": "AI Deployment Strategist - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100064+00:00"
+    },
+    "1e51a251-94cd-486e-8992-93024840412e": {
+      "title": "AI Deployment Strategist - Seoul",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100066+00:00"
+    },
+    "55c2e8f4-a3ea-4e59-9ccf-dac2fee26c65": {
+      "title": "AI Deployment Strategist - Singapore",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100067+00:00"
+    },
+    "2aaf3b8e-3bee-46b7-9942-70351e63007f": {
+      "title": "AI Deployment Strategist - Spain",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100069+00:00"
+    },
+    "ffbb8f6c-67de-4b25-b37c-0eafd11e7b4f": {
+      "title": "AI Deployment Strategist - Sweden",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100070+00:00"
+    },
+    "e59555e3-899d-4e1e-875f-90b825bc1e28": {
+      "title": "AI Deployment Strategist - UK",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100071+00:00"
+    },
+    "d9f2767e-cdab-4e07-9944-20bbc468613d": {
+      "title": "AI Deployment Strategist, Cybersecurity - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100073+00:00"
+    },
+    "b56f6523-b7d2-47a3-abe6-2c793c7672fc": {
+      "title": "AI Developer Advocate",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100074+00:00"
+    },
+    "fd865fe4-7344-43b0-9d8d-600e8b366725": {
+      "title": "AI Developer Advocate",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100076+00:00"
+    },
+    "3e8b03e7-ff33-4cd1-8042-90b7ac3c4683": {
+      "title": "AI Developer Advocate - Singapore",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100077+00:00"
+    },
+    "c79ff8ed-6689-4dda-aec6-979a5dc767d0": {
+      "title": "AI Engineer, Product",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100078+00:00"
+    },
+    "94173e13-3050-4044-862a-e8dfc2deda5e": {
+      "title": "AI Scientist - Audio",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100080+00:00"
+    },
+    "7b20d2c8-d5a7-4efd-a13e-05d920ec5985": {
+      "title": "AI Scientist - Palo Alto",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100081+00:00"
+    },
+    "675b7f06-a76b-4144-af0c-4dd3282ef489": {
+      "title": "AI Scientist - Paris/London - Onsite or Hybrid or Remote",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100083+00:00"
+    },
+    "60f9dc5b-6d1c-4236-be38-be7233669f00": {
+      "title": "AI Scientist - Robotics",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100084+00:00"
+    },
+    "4e498cbf-151e-483a-b3f7-76ff64a22041": {
+      "title": "AI Scientist - Warsaw",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100085+00:00"
+    },
+    "bedfc2aa-f1b6-4136-bd17-b3abe4c06120": {
+      "title": "AI Scientist - Zurich",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100087+00:00"
+    },
+    "aceffeba-c4e9-4b3b-adff-e7e78b986c5c": {
+      "title": "Applied AI Engineer, Fullstack Software Engineer - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100088+00:00"
+    },
+    "ac195fdb-1731-4ce2-b47e-c1bb8c72c59d": {
+      "title": "Applied AI Engineer, Prototyping",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100090+00:00"
+    },
+    "3e51d533-1f2d-48e3-9a2b-33fc7e8b0c0c": {
+      "title": "Applied AI Engineer, Senior/Staff Devops/SRE - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100091+00:00"
+    },
+    "5538042e-f157-4a2c-a9ee-e412de9ba761": {
+      "title": "Applied AI Engineer, Senior/Staff Fullstack Software Engineer - Singapore",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100093+00:00"
+    },
+    "5993e633-2c23-4054-801e-1da4c2adadc5": {
+      "title": "Applied AI,  Senior/Staff Forward Deployed Machine Learning Engineer - Singapore",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100094+00:00"
+    },
+    "e0db3860-0a80-47a8-958a-f8e62f3bb59c": {
+      "title": "Applied AI, Evaluation Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100095+00:00"
+    },
+    "77f6fd1b-65cf-45d8-9b68-594c62732f62": {
+      "title": "Applied AI, Forward Deployed Machine Learning Engineer - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100097+00:00"
+    },
+    "a73cb128-b07e-437c-b82d-57b06661c52b": {
+      "title": "Applied AI, Forward Deployed Machine Learning Engineer - Montreal",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100099+00:00"
+    },
+    "cb2137e6-d6b1-47d7-8450-6370a61f2b79": {
+      "title": "Applied AI, Forward Deployed Machine Learning Engineer - Morocco",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100100+00:00"
+    },
+    "0b476d3a-5f0c-4dda-9a5e-bd5ed8515328": {
+      "title": "Applied AI, Forward Deployed Machine Learning Engineer - Palo Alto",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100102+00:00"
+    },
+    "c7b7fdfe-a071-4d62-bc15-7bcdff8067e7": {
+      "title": "Applied AI, Forward Deployed Machine Learning Engineer, Critical and Sovereign Institutions, EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100103+00:00"
+    },
+    "ebfdc0da-13fd-4ae9-9861-bedb5ff493ea": {
+      "title": "Applied AI, Technical Lead - Forward Deployed AI Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100104+00:00"
+    },
+    "e2cf255f-49c8-4630-afe0-7f665f51f01f": {
+      "title": "Applied AI, Technical Lead, Forward Deployed AI Engineer - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100106+00:00"
+    },
+    "042d7b29-279b-48e2-a44b-c7bdc3180dab": {
+      "title": "Applied AI, Technical Lead, Forward Deployed AI Engineer - Montreal",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100107+00:00"
+    },
+    "715aba24-6c75-40a6-a978-ac6ebbebece5": {
+      "title": "Applied Science / Technical Program Manager - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100109+00:00"
+    },
+    "b7ae8fc4-5779-4ad2-8f5b-632b4d9498cf": {
+      "title": "Applied Scientist / Research Engineer - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100110+00:00"
+    },
+    "c41d9d9e-f0ea-4621-a4a9-3f10dfa9ae84": {
+      "title": "Applied Scientist / Research Engineer - Singapore",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100111+00:00"
+    },
+    "426ef8c0-eb26-4004-a690-f33c62b445a7": {
+      "title": "Applied Scientist / Research Engineer (Internship)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100116+00:00"
+    },
+    "4d689780-4995-4fe5-9b7e-e8c28a180397": {
+      "title": "Associate AI Deployment Strategist",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100118+00:00"
+    },
+    "b551de18-b9ae-493e-beb1-629fe9e88381": {
+      "title": "Business Development Manager - Tech Partners",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100119+00:00"
+    },
+    "bd88179e-de69-4675-8a6c-74e2547a85ac": {
+      "title": "Code Data Quality Specialist",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100121+00:00"
+    },
+    "e9e2c848-2128-4c59-968d-ccf2ae35b438": {
+      "title": "Commercial Legal Counsel - Singapore",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100122+00:00"
+    },
+    "0048593b-1ca4-4c35-855e-be944c2cb655": {
+      "title": "Commercial Legal Counsel, EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100124+00:00"
+    },
+    "94a331c8-0ddf-4e88-a6ad-7a70c212e0fa": {
+      "title": "CyberSecurity Engineer, DevSecOps",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100125+00:00"
+    },
+    "6f7f6e7a-3dc4-430b-8957-a64450a10066": {
+      "title": "Cybersecurity Engineer, SIEM",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100126+00:00"
+    },
+    "f9782b09-ca3c-4bfc-ba7a-349551ef9a82": {
+      "title": "CyberSecurity Engineer, SOC Analyst",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100128+00:00"
+    },
+    "c9b75928-dd48-4432-b6f1-fc0b24e51657": {
+      "title": "CyberSecurity Team Lead, Infrastructure and Application",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100129+00:00"
+    },
+    "2414ad08-5756-4875-afb5-04d26464b397": {
+      "title": "CyberSecurity, Offensive Security Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100131+00:00"
+    },
+    "6f28da96-76f9-44bb-9b85-4e3519fde6d4": {
+      "title": "Data Analytics/Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100132+00:00"
+    },
+    "1cb8bbe9-012f-46a6-83d0-1200be477793": {
+      "title": "Data Annotation Quality Specialist",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100134+00:00"
+    },
+    "fa170722-b93a-49f5-a649-3fc731c57a71": {
+      "title": "Data Center Operations Manager",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100135+00:00"
+    },
+    "bf5bcae2-839b-492e-a5bc-11d4427ee843": {
+      "title": "Data Scientist",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100136+00:00"
+    },
+    "ddf7bcbb-e223-4768-a553-6e95df472cf7": {
+      "title": "Datacenter Hardware Engineer, HPC",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100138+00:00"
+    },
+    "d87ba0cc-010c-4237-a04f-dae2481cb59f": {
+      "title": "Developer Education Lead",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100139+00:00"
+    },
+    "c7ffe998-bf72-4459-8b48-ab1eeeeeb090": {
+      "title": "Director of Internal Control",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100140+00:00"
+    },
+    "add3ec37-a655-4a60-8823-1e871aa1e9b2": {
+      "title": "Engineering Manager",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100142+00:00"
+    },
+    "b002e59e-c262-4c68-86a8-4af575f5c4df": {
+      "title": "Engineering Team Lead, DevEx",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100143+00:00"
+    },
+    "bfb756e5-c820-4c55-96f4-f41c4cfa972e": {
+      "title": "Enterprise Sales Leader",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100145+00:00"
+    },
+    "9f3f377e-c85c-4521-b0ea-52afbca2a5e4": {
+      "title": "Executive Assistant to the VP Engineering - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100146+00:00"
+    },
+    "43714d11-e677-44aa-beb7-170d230b7f6c": {
+      "title": "Executive Assistant to VP Legal",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100147+00:00"
+    },
+    "eaa62529-1f3a-4360-87b0-310ebd3715ce": {
+      "title": "Executive Assistant to VP of Engineering (Contractor)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100149+00:00"
+    },
+    "ea94b55b-58e1-437b-bf3d-07ed150308e3": {
+      "title": "Field Hardware Engineer, HPC",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100150+00:00"
+    },
+    "eb6a8a44-19f6-4b84-bce8-8a818542d2c4": {
+      "title": "General Accountant",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100152+00:00"
+    },
+    "dad622c0-15dc-4db8-bad4-f6008a03ba89": {
+      "title": "Head of Communications, APAC",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100153+00:00"
+    },
+    "21e7e5d6-a469-4eeb-a0c5-2e0f3e92bd9e": {
+      "title": "HR Business Partner",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100155+00:00"
+    },
+    "d7007133-0f05-4775-9fe3-f0eed36ea7b9": {
+      "title": "HR People Ops APAC",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100157+00:00"
+    },
+    "00174d62-29ca-42c3-8dfb-8bc396384d48": {
+      "title": "HR People Ops EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100159+00:00"
+    },
+    "05357f94-2843-4385-a5ef-1a132ad88315": {
+      "title": "IFRS Specialist",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100161+00:00"
+    },
+    "1d8de5a6-9794-4919-9c43-b2494e6cfa0f": {
+      "title": "Infrastructure Solution Architect - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100162+00:00"
+    },
+    "01384cb8-1218-4116-a040-2c97eb1a300b": {
+      "title": "Infrastructure Solution Architect - US",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100164+00:00"
+    },
+    "a6064464-4ff5-42e6-aa15-75122a5fa9f6": {
+      "title": "Lead Accounting Operations",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100167+00:00"
+    },
+    "fbcc92bb-a69e-44a3-a8cc-fa8011e8d75a": {
+      "title": "Legal Counsel - US",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100169+00:00"
+    },
+    "0a274090-e9f9-4ed4-a6e0-aac5acdf4248": {
+      "title": "Legal Counsel, Copyright Attorney",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100171+00:00"
+    },
+    "078e3097-9b9c-48a9-bfd8-92df5a41f931": {
+      "title": "Legal Counsel, Patent Attorney",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100172+00:00"
+    },
+    "bd69355b-9159-4bad-b52d-b71110e65090": {
+      "title": "Legal Tech & Ops Associate (IP & Licensing Business)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100174+00:00"
+    },
+    "b84413c1-00a1-4663-8697-aa6548cc87f8": {
+      "title": "Licensing Executive",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100176+00:00"
+    },
+    "aef81704-b44b-4a42-bdb0-a895cf709df6": {
+      "title": "M&A Tech Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100178+00:00"
+    },
+    "59624055-8cc3-43dc-81d4-4f01d77e30c9": {
+      "title": "Marketing Programs Manager",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100179+00:00"
+    },
+    "f76907fd-428a-4824-a1cf-8013974fde29": {
+      "title": "Mistral Cloud - Site Reliability Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100180+00:00"
+    },
+    "64c9a48e-6d23-4090-bf0f-5a979830fbaf": {
+      "title": "Mistral Cloud - Software Engineer, Backend (Golang)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100182+00:00"
+    },
+    "2d0ff193-e96e-43b0-b4e5-2121142965b3": {
+      "title": "Mistral Cloud - Software Engineer, Fullstack/Frontend",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100184+00:00"
+    },
+    "4337cebc-b951-4528-98f8-ebcb45db5645": {
+      "title": "Model Behavior Architect",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100185+00:00"
+    },
+    "6857fa38-ce30-4513-9930-acf7d78d42ed": {
+      "title": "Network Engineer, HPC - Paris Region",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100187+00:00"
+    },
+    "ef4c26fc-3fdb-4dd2-a64e-95264ee769dd": {
+      "title": "Open-Source Software, Machine Learning Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100188+00:00"
+    },
+    "29aa0964-a859-464b-832c-a12a2154b501": {
+      "title": "Partner Manager SI - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100190+00:00"
+    },
+    "dfb77ba1-727b-454e-a323-e6e0eafec561": {
+      "title": "Partner Solution Architect - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100192+00:00"
+    },
+    "25e20280-bdd6-4dee-9857-9247aeac0067": {
+      "title": "Privacy Legal Counsel",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100193+00:00"
+    },
+    "d67de1b6-2cb3-4afb-b2a6-5e4901dce408": {
+      "title": "Product Designer - Documentation",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100195+00:00"
+    },
+    "7ed4baa4-9323-4c5e-96eb-732a92257474": {
+      "title": "Product Designer - Mistral Cloud",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100196+00:00"
+    },
+    "b161e4b7-001c-4b91-8396-b3f38aff919b": {
+      "title": "Product Designer - Observability",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100198+00:00"
+    },
+    "6201f9a0-233f-4de3-a8cc-65b75e99370f": {
+      "title": "Product Manager, AI Studio",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100200+00:00"
+    },
+    "ca22a1ac-c87e-4463-914a-6753ca79318c": {
+      "title": "Product Manager, Cloud Partnerships",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100202+00:00"
+    },
+    "c08c3a0f-9899-4e6c-8195-8b1cc24c56ff": {
+      "title": "Product Manager, Context & Search",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100203+00:00"
+    },
+    "7809b483-bdae-4964-97c7-5b8d232a142f": {
+      "title": "Product Manager, Document Intelligence",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100205+00:00"
+    },
+    "11087966-f183-44b1-adc9-3a400c1f52ad": {
+      "title": "Product Manager, Forge",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100206+00:00"
+    },
+    "c5e134c7-0513-40cb-99f7-e1e87f9a3349": {
+      "title": "Product Marketing Manager, Solutions",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100208+00:00"
+    },
+    "6366e859-3a0f-44ed-9578-629a04c77e3c": {
+      "title": "Product Regulatory Legal Counsel (EU)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100209+00:00"
+    },
+    "ef744f52-3ceb-42f1-84f6-1c8bde220eb1": {
+      "title": "Research Engineer - Robotics",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100211+00:00"
+    },
+    "071a5491-ea01-413f-ad78-f85b5e4c2215": {
+      "title": "Research Engineer, Data Infrastructure",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100213+00:00"
+    },
+    "37f53ee5-dd88-43e3-be6a-70e3db159c8f": {
+      "title": "Research Engineer, Data Infrastructure",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100214+00:00"
+    },
+    "bada0014-0f32-4370-b55f-81c5595c7339": {
+      "title": "Research Engineer, Machine Learning",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100216+00:00"
+    },
+    "07447e1d-7900-46d4-b61b-186f2f76847f": {
+      "title": "Research Engineer, Machine Learning - Paris/London/Zurich/Warsaw",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100217+00:00"
+    },
+    "18be2b70-c05d-48e4-82ac-e5cb462c96c0": {
+      "title": "Research Platform Engineer, DevOps",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100219+00:00"
+    },
+    "df0d75c1-97ef-4e50-85e6-0ffd8f5b7d7c": {
+      "title": "Research Software Engineer - Paris/London",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100220+00:00"
+    },
+    "145631ca-34dd-4664-b2b7-86fed4469eea": {
+      "title": "Revenue Recognition Specialist",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100222+00:00"
+    },
+    "e0ed3178-622f-45b5-99ae-324a1c7f86ce": {
+      "title": "SAP Platform Lead",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100223+00:00"
+    },
+    "0004f890-99d5-47c5-bb67-8f3f76a1e08f": {
+      "title": "Senior AI Deployment Strategist - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100225+00:00"
+    },
+    "de3db0dd-972a-4201-b2ff-a9d41371f53c": {
+      "title": "Senior Commercial Legal Counsel (MENA)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100226+00:00"
+    },
+    "0d94546e-a15a-4644-8115-0b960f79d973": {
+      "title": "Senior Compute Legal Counsel",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100228+00:00"
+    },
+    "8f3566b9-8165-46e1-899f-f37f8fe35ab5": {
+      "title": "Senior Product Marketing Manager - Studio",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100229+00:00"
+    },
+    "6e16e4fa-a60b-4270-a815-06b0450fb597": {
+      "title": "Site Reliability Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100231+00:00"
+    },
+    "b320e972-3ed8-4d02-acb1-37950812cdbc": {
+      "title": "Site Reliability Engineer - NYC",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100233+00:00"
+    },
+    "592525d7-0837-4002-9b94-42ef2f7c2571": {
+      "title": "Social Media & Content Specialist - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100235+00:00"
+    },
+    "97a9b891-7979-4ca7-a2d9-f1f5e9107ce5": {
+      "title": "Social Media Specialist - Writing & Video (US)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100236+00:00"
+    },
+    "305432ef-27ac-4012-a893-a662813ac6e9": {
+      "title": "Software Engineer,  Frontend",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100238+00:00"
+    },
+    "77b8339f-da37-4f38-b554-1d154f72ca8f": {
+      "title": "Software Engineer, Backend (London)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100239+00:00"
+    },
+    "f2e8ba75-bf5a-4976-bb96-c5d3e0f99366": {
+      "title": "Software Engineer, Backend (New-York)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100241+00:00"
+    },
+    "e76d2957-2bf6-4d8f-90a2-29bf9a927823": {
+      "title": "Software Engineer, Backend (Paris)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100243+00:00"
+    },
+    "31364497-4081-454a-b50c-12d15daf6876": {
+      "title": "Software Engineer, Deployment Infrastructure",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100244+00:00"
+    },
+    "c9e16eb0-0cb9-423d-8495-a96d10782622": {
+      "title": "Software Engineer, DevEx",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100246+00:00"
+    },
+    "3eef7a1f-cd9d-430e-ac67-9d52534c346a": {
+      "title": "Software Engineer, Enterprise Agents",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100247+00:00"
+    },
+    "70d5293a-9183-40d9-874a-cc08a14d5de6": {
+      "title": "Software Engineer, Knowledge and Search",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100260+00:00"
+    },
+    "03918386-cb56-4e4d-afa8-1f8b7676a4a6": {
+      "title": "Software Engineer, QA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100262+00:00"
+    },
+    "c4f5669e-305b-4e9f-9ae8-10fd50682273": {
+      "title": "Solution Operations - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100264+00:00"
+    },
+    "2e48b51e-4872-41ee-833d-f8b57d25cf0d": {
+      "title": "Strategic Partner Lead - OEM and Neoclouds",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100265+00:00"
+    },
+    "03e85b97-a91d-46e9-afa4-77945235277a": {
+      "title": "Strategic Partner Lead, SAP",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100267+00:00"
+    },
+    "c2cf8b02-cb79-4e13-8717-25817813542d": {
+      "title": "Systems Engineer, HPC",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100268+00:00"
+    },
+    "b1005559-123a-4207-97c1-60fcd67bef5b": {
+      "title": "Talent Acquisition - EMEA (Contractor)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100270+00:00"
+    },
+    "9c9bd375-c6d3-46a4-8338-4882254cc717": {
+      "title": "Talent Acquisition - US (Contractor)",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100271+00:00"
+    },
+    "41262cfd-5a86-4645-b059-1de4ee9b9ccb": {
+      "title": "Talent Acquisition (Engineering/Product/GTM/ Science) - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100273+00:00"
+    },
+    "f4226e68-4a9a-4b95-a879-f2f993e5808b": {
+      "title": "Talent Acquisition Lead - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100275+00:00"
+    },
+    "5ee49b30-7757-4e24-aa54-080265ce1d15": {
+      "title": "Talent Acquisition, USA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100276+00:00"
+    },
+    "942f8627-3079-416b-a2a7-bf651b336acb": {
+      "title": "Technical Marketing Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100278+00:00"
+    },
+    "a1854159-922e-4de7-adb6-7c1b608c147f": {
+      "title": "Technical Program Manager, Engineering",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100279+00:00"
+    },
+    "67858cb5-c8b2-42f9-b11a-8f2b355a8073": {
+      "title": "Technical Program Manager, Science Operations - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100281+00:00"
+    },
+    "a228ac73-62f1-4a2a-8afe-5070f445143f": {
+      "title": "Technical Support Engineer - Use Cases",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100282+00:00"
+    },
+    "f00a13aa-61f1-4c56-993c-20846adc2b15": {
+      "title": "Technical Support Engineer \u2013 On-Premise",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100284+00:00"
+    },
+    "c96bf665-7d73-406b-8d8f-ddf8df5d160f": {
+      "title": "Web Crawling Engineer",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100286+00:00"
+    },
+    "ad392e8e-746f-457d-ac04-28c33b8fdfce": {
+      "title": "Workplace Ops - EMEA",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100287+00:00"
+    },
+    "9e1aac08-ea14-4a56-ab84-1bc3a7d941b8": {
+      "title": "Workplace Ops - Paris",
+      "company": "mistral",
+      "first_seen": "2026-04-26T07:11:03.100289+00:00"
+    },
+    "5822886004": {
+      "title": "Accenture Account Executive, Strategic (London, United Kingdom)  ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100291+00:00"
+    },
+    "5364702004": {
+      "title": "Account Executive, Emerging Enterprise (Berlin, Germany)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100292+00:00"
+    },
+    "5426468004": {
+      "title": "Account Executive, Enterprise",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100294+00:00"
+    },
+    "5579204004": {
+      "title": "Account Executive, Enterprise (Bengaluru, India)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100295+00:00"
+    },
+    "5783812004": {
+      "title": "Account Executive, Enterprise (Berlin, Germany)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100297+00:00"
+    },
+    "5458801004": {
+      "title": "Account Executive, Enterprise (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100298+00:00"
+    },
+    "5428656004": {
+      "title": "Account Executive, Enterprise (Paris, France) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100300+00:00"
+    },
+    "5798928004": {
+      "title": "Account Executive, Enterprise, Spanish & Portuguese Speaking (S\u00e3o Paulo, Brazil)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100302+00:00"
+    },
+    "5803515004": {
+      "title": "Account Executive, Enterprise (Sydney or Melbourne, Australia)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100303+00:00"
+    },
+    "5806875004": {
+      "title": "Account Executive, Enterprise (Tokyo, Japan) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100304+00:00"
+    },
+    "5760223004": {
+      "title": "Account Executive - Figma Weave (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100306+00:00"
+    },
+    "5755146004": {
+      "title": "Account Executive - Figma Weave (New York, United States)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100308+00:00"
+    },
+    "5422236004": {
+      "title": "Account Executive, Mid-Market",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100310+00:00"
+    },
+    "5576544004": {
+      "title": "Account Executive, Mid-Market (Bengaluru, India)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100311+00:00"
+    },
+    "5415515004": {
+      "title": "Account Executive, Mid-Market (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100313+00:00"
+    },
+    "5844225004": {
+      "title": "Account Executive, Mid-Market (Paris, France)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100316+00:00"
+    },
+    "5783321004": {
+      "title": "Account Executive, Mid-Market, Spanish & Portuguese Speaking (S\u00e3o Paulo, Brazil)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100317+00:00"
+    },
+    "5809131004": {
+      "title": "Account Executive, Mid-Market (Tokyo, Japan) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100319+00:00"
+    },
+    "5694259004": {
+      "title": "Account Executive, SMB ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100320+00:00"
+    },
+    "5647851004": {
+      "title": "Account Executive, SMB (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100322+00:00"
+    },
+    "5729844004": {
+      "title": "Account Executive, SMB (Tokyo, Japan) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100323+00:00"
+    },
+    "5558737004": {
+      "title": "Account Executive, Strategic",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100325+00:00"
+    },
+    "5753209004": {
+      "title": "Account Executive, Strategic, Mandarin-Speaking (Singapore)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100326+00:00"
+    },
+    "5797769004": {
+      "title": "Account Executive, Strategic, Spanish & Portuguese Speaking (S\u00e3o Paulo, Brazil)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100328+00:00"
+    },
+    "5756182004": {
+      "title": "Account Executive, Strategic (Tokyo, Japan)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100330+00:00"
+    },
+    "5707966004": {
+      "title": "AI Applied Scientist",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100331+00:00"
+    },
+    "5633324004": {
+      "title": "Associate Solutions Consultant",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100333+00:00"
+    },
+    "5802956004": {
+      "title": "Automations & AI Specialist, Product Support ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100335+00:00"
+    },
+    "5836962004": {
+      "title": "Brand Designer, Product Demos",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100336+00:00"
+    },
+    "5832782004": {
+      "title": "Business Recruiter (S\u00e3o Paulo, Brazil)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100337+00:00"
+    },
+    "5971174004": {
+      "title": "Business Systems Analyst",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100339+00:00"
+    },
+    "5980306004": {
+      "title": "Business Systems Analyst ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100340+00:00"
+    },
+    "5893911004": {
+      "title": "Compensation Partner",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100342+00:00"
+    },
+    "5699991004": {
+      "title": "Corporate Development & Strategy, M&A Integration",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100343+00:00"
+    },
+    "5817899004": {
+      "title": "Customer Enablement Manager",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100345+00:00"
+    },
+    "5765928004": {
+      "title": "Customer Enablement Manager - Figma Weave (New York, United States)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100347+00:00"
+    },
+    "5976498004": {
+      "title": "Customer Enablement Manager (Paris, France)   ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100348+00:00"
+    },
+    "5817390004": {
+      "title": "Customer Enablement Manager (S\u00e3o Paulo, Brazil)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100350+00:00"
+    },
+    "5220003004": {
+      "title": "Data Engineer",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100351+00:00"
+    },
+    "5840332004": {
+      "title": "Data Platform Engineer",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100353+00:00"
+    },
+    "5552580004": {
+      "title": "Data Scientist  ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100354+00:00"
+    },
+    "5976930004": {
+      "title": "Data Scientist, Core Data -  PhD (2026)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100356+00:00"
+    },
+    "5790731004": {
+      "title": "Designer Advocate, Federal",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100357+00:00"
+    },
+    "5692764004": {
+      "title": "Designer Advocate - Figma Weave (New York, United States)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100359+00:00"
+    },
+    "5834922004": {
+      "title": "Developer Advocate",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100360+00:00"
+    },
+    "5969647004": {
+      "title": "Developer Advocate (Tokyo, Japan)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100362+00:00"
+    },
+    "5841222004": {
+      "title": "Director, Communications ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100363+00:00"
+    },
+    "5843289004": {
+      "title": "Director, Enterprise Sales (Paris, France)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100365+00:00"
+    },
+    "5728495004": {
+      "title": "Director, Federal Sales",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100366+00:00"
+    },
+    "5850497004": {
+      "title": "Director, IT",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100368+00:00"
+    },
+    "5787289004": {
+      "title": "Director, Sales - Figma Weave (New York, United States)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100369+00:00"
+    },
+    "5848022004": {
+      "title": "Director, SEC Reporting & Technical Accounting",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100371+00:00"
+    },
+    "5812567004": {
+      "title": "Director, Solution Consulting (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100372+00:00"
+    },
+    "5820284004": {
+      "title": "Director, Solutions Consulting",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100374+00:00"
+    },
+    "5835172004": {
+      "title": "Director, Technical Revenue Accounting",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100375+00:00"
+    },
+    "5813967004": {
+      "title": "Distribution Partner Manager",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100376+00:00"
+    },
+    "5660873004": {
+      "title": "Distribution Partner Manager (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100378+00:00"
+    },
+    "5756184004": {
+      "title": " Distribution Partner Manager (Singapore)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100380+00:00"
+    },
+    "5724297004": {
+      "title": "Distribution Partner Manager (Tokyo, Japan)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100381+00:00"
+    },
+    "5828494004": {
+      "title": "Early Career Recruiter",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100383+00:00"
+    },
+    "5781862004": {
+      "title": "Email Marketing Operations",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100384+00:00"
+    },
+    "5615966004": {
+      "title": "Enterprise Solutions Consultant (Bengaluru, India)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100386+00:00"
+    },
+    "5978411004": {
+      "title": "Enterprise Support Specialist, Japanese Speaking (Tokyo, Japan)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100387+00:00"
+    },
+    "5839964004": {
+      "title": "Events Manager",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100389+00:00"
+    },
+    "5969046004": {
+      "title": "Executive Assistant, People",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100390+00:00"
+    },
+    "5840805004": {
+      "title": "Growth Marketing Manager, Scaled Success",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100392+00:00"
+    },
+    "5977327004": {
+      "title": "Inside Sales Representative - Early Career (2026)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100393+00:00"
+    },
+    "5721644004": {
+      "title": "Inside Sales Representative (Sao Paulo, Brazil) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100395+00:00"
+    },
+    "5802466004": {
+      "title": "International Tax Manager",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100396+00:00"
+    },
+    "5813865004": {
+      "title": "IT Engineer (London, United Kingdom) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100398+00:00"
+    },
+    "5729141004": {
+      "title": "Launch Strategy, Brand & Comms",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100400+00:00"
+    },
+    "5811082004": {
+      "title": "Legal Counsel, Commercial ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100401+00:00"
+    },
+    "5829275004": {
+      "title": "Legal Counsel (London, United Kingdom) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100403+00:00"
+    },
+    "5737291004": {
+      "title": "Legal Operations Lead",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100405+00:00"
+    },
+    "5973393004": {
+      "title": "Manager, AV",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100406+00:00"
+    },
+    "5849759004": {
+      "title": "Manager, Customer Education Design",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100408+00:00"
+    },
+    "5971712004": {
+      "title": "Manager, Customer Enablement",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100409+00:00"
+    },
+    "5740382004": {
+      "title": "Manager, Enterprise Support (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100411+00:00"
+    },
+    "5737701004": {
+      "title": "Manager, Figma for Education ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100412+00:00"
+    },
+    "5828518004": {
+      "title": "Manager, Indirect Tax",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100414+00:00"
+    },
+    "5842393004": {
+      "title": "Manager, International Tax",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100415+00:00"
+    },
+    "5564202004": {
+      "title": "Manager, Mid-Market Sales ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100416+00:00"
+    },
+    "5803517004": {
+      "title": "Manager, Mid-Market Sales (Sydney, Australia)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100418+00:00"
+    },
+    "5891718004": {
+      "title": "Manager, People Relations",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100420+00:00"
+    },
+    "5790585004": {
+      "title": "Manager, Product Design",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100421+00:00"
+    },
+    "5972046004": {
+      "title": "Manager, Sales - Figma Weave (New York, United States)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100423+00:00"
+    },
+    "5838098004": {
+      "title": "Manager, Software Engineering - AI Product ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100424+00:00"
+    },
+    "5722244004": {
+      "title": "Manager, Software Engineering - Billing",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100426+00:00"
+    },
+    "5696366004": {
+      "title": "Manager, Software Engineering - Creation Engine",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100427+00:00"
+    },
+    "5787320004": {
+      "title": "Manager, Software Engineering - Design Systems Management ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100428+00:00"
+    },
+    "5678196004": {
+      "title": "Manager, Software Engineering - Expressive AI",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100430+00:00"
+    },
+    "5778796004": {
+      "title": "Manager, Software Engineering - Interaction Design",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100431+00:00"
+    },
+    "5807963004": {
+      "title": "Manager, Software Engineering - Observability",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100433+00:00"
+    },
+    "5804108004": {
+      "title": "Manager, Software Engineering - Search & Recommendations",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100435+00:00"
+    },
+    "5697641004": {
+      "title": "Manager, Solutions Consulting",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100436+00:00"
+    },
+    "5735113004": {
+      "title": "Manager, Solutions Consulting (Paris, France)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100438+00:00"
+    },
+    "5838193004": {
+      "title": "Manager, Solutions Consulting (Singapore)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100439+00:00"
+    },
+    "5620034004": {
+      "title": "Manager, Strategic Sales",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100441+00:00"
+    },
+    "5840645004": {
+      "title": "Manager, Technical Support (Bengaluru, India)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100442+00:00"
+    },
+    "5859050004": {
+      "title": "Onboarding Manager, Customer Experience ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100444+00:00"
+    },
+    "5737300004": {
+      "title": "People Analyst",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100445+00:00"
+    },
+    "5978282004": {
+      "title": "People Partner, Japan & APAC (Singapore)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100447+00:00"
+    },
+    "5831836004": {
+      "title": "People Partner, Sales",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100449+00:00"
+    },
+    "5711913004": {
+      "title": "Product Designer, AI Models",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100450+00:00"
+    },
+    "5711468004": {
+      "title": "Product Designer - Design, Dev, & AI Tools",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100451+00:00"
+    },
+    "5711595004": {
+      "title": "Product Designer, Growth & Monetization",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100453+00:00"
+    },
+    "5830640004": {
+      "title": "Product Manager, AI Platform",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100454+00:00"
+    },
+    "5505263004": {
+      "title": "Product Manager, Design Tools",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100456+00:00"
+    },
+    "5819866004": {
+      "title": "Product Manager, Figma Weave (New York, United States)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100457+00:00"
+    },
+    "5776152004": {
+      "title": "Product Marketing Manager, Builder Audience",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100459+00:00"
+    },
+    "5822583004": {
+      "title": "Product Partner Manager ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100460+00:00"
+    },
+    "5973463004": {
+      "title": "Rapid Researcher",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100462+00:00"
+    },
+    "5813638004": {
+      "title": "Recruiter (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100463+00:00"
+    },
+    "5808829004": {
+      "title": "Recruiter (Tokyo, Japan)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100465+00:00"
+    },
+    "5810842004": {
+      "title": "Regional Marketing Manager (S\u00e3o Paulo, Brazil)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100467+00:00"
+    },
+    "5651744004": {
+      "title": "Researcher, Core Product Strategy",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100468+00:00"
+    },
+    "5839419004": {
+      "title": "Sales Operations Manager",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100470+00:00"
+    },
+    "5756186004": {
+      "title": "Sales Operations Manager (Tokyo, Japan)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100471+00:00"
+    },
+    "5798281004": {
+      "title": "Sales Recruiter",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100473+00:00"
+    },
+    "5829751004": {
+      "title": "Security Engineer",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100474+00:00"
+    },
+    "5969555004": {
+      "title": "Senior Accountant (Dublin, Ireland) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100476+00:00"
+    },
+    "5565447004": {
+      "title": "Senior Account Executive, SMB",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100477+00:00"
+    },
+    "5834913004": {
+      "title": "Senior Counsel, Legal - Spanish & Portuguese Speaking (S\u00e3o Paulo, Brazil)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100479+00:00"
+    },
+    "5856821004": {
+      "title": "Senior Manager, Customer Experience & Solutions (Tokyo, Japan)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100480+00:00"
+    },
+    "5753194004": {
+      "title": "Senior Manager, Enterprise Sales (Tokyo, Japan)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100482+00:00"
+    },
+    "5721527004": {
+      "title": "Senior Solutions Consultant (Tokyo, Japan)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100483+00:00"
+    },
+    "5835673004": {
+      "title": "Senior Technical Revenue Analyst (Dublin, Ireland) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100484+00:00"
+    },
+    "5691886004": {
+      "title": "Software Engineer, AI Platforms",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100486+00:00"
+    },
+    "5551730004": {
+      "title": "Software Engineer, AI Product",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100487+00:00"
+    },
+    "5551697004": {
+      "title": "Software Engineer, AI Product (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100489+00:00"
+    },
+    "5692525004": {
+      "title": "Software Engineer, Backend - Figma Weave (Tel Aviv, Israel) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100491+00:00"
+    },
+    "5552530004": {
+      "title": "Software Engineer, C++",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100492+00:00"
+    },
+    "5759501004": {
+      "title": "Software Engineer, Code Platform",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100493+00:00"
+    },
+    "5551686004": {
+      "title": "Software Engineer, Data Infrastructure",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100495+00:00"
+    },
+    "5790627004": {
+      "title": "Software Engineer, Developer Experience",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100496+00:00"
+    },
+    "5552549004": {
+      "title": "Software Engineer, Distributed Systems",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100498+00:00"
+    },
+    "5691911004": {
+      "title": "Software Engineer, Full Stack",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100499+00:00"
+    },
+    "5692524004": {
+      "title": "Software Engineer, Fullstack - Figma Weave (Tel Aviv, Israel) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100501+00:00"
+    },
+    "5552522004": {
+      "title": "Software Engineer, Graphics & Media",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100502+00:00"
+    },
+    "5552560004": {
+      "title": "Software Engineer, Growth & Monetization",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100504+00:00"
+    },
+    "5551532004": {
+      "title": "Software Engineer, Machine Learning",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100505+00:00"
+    },
+    "5551649004": {
+      "title": "Software Engineer, Production Engineering",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100507+00:00"
+    },
+    "5781928004": {
+      "title": "Software Engineer, Production Engineering  (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100508+00:00"
+    },
+    "5783377004": {
+      "title": "Solutions Consultant",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100510+00:00"
+    },
+    "5735853004": {
+      "title": "Solutions Consultant (Berlin, Germany)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100511+00:00"
+    },
+    "5735493004": {
+      "title": "Solutions Consultant (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100513+00:00"
+    },
+    "5735542004": {
+      "title": "Solutions Consultant (Paris, France)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100514+00:00"
+    },
+    "5659640004": {
+      "title": "Solutions Consultant (S\u00e3o Paulo, Brazil)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100516+00:00"
+    },
+    "5792631004": {
+      "title": "Strategic Finance",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100517+00:00"
+    },
+    "5978327004": {
+      "title": "Strategic Program Manager, Marketing ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100518+00:00"
+    },
+    "5973930004": {
+      "title": "Strategic Sourcing Manager",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100520+00:00"
+    },
+    "5814274004": {
+      "title": "Technical Account Manager",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100521+00:00"
+    },
+    "5817394004": {
+      "title": "Technical Account Manager (S\u00e3o Paulo, Brazil)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100523+00:00"
+    },
+    "5970215004": {
+      "title": "Technical & Competitive Sales Solutions Manager",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100524+00:00"
+    },
+    "5837760004": {
+      "title": "Technical Program Manager, AI Performance",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100526+00:00"
+    },
+    "5699965004": {
+      "title": "Technical Recruiter",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100527+00:00"
+    },
+    "5708436004": {
+      "title": "Technical Support Engineer (London, United Kingdom)",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100529+00:00"
+    },
+    "5971708004": {
+      "title": "Technical Support Specialist - Figma Weave (London, United Kingdom) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100530+00:00"
+    },
+    "5971689004": {
+      "title": "Technical Support Specialist  - Figma Weave (Tel Aviv, Israel) ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100532+00:00"
+    },
+    "5839202004": {
+      "title": "UX Writer, AI ",
+      "company": "figma",
+      "first_seen": "2026-04-26T07:11:03.100533+00:00"
+    },
+    "7532733": {
+      "title": "Account Executive, AI Sales",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100535+00:00"
+    },
+    "7746909": {
+      "title": "Account Executive, AI Startups - Existing Business",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100536+00:00"
+    },
+    "7306915": {
+      "title": "Account Executive, Commercial (Existing Business)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100538+00:00"
+    },
+    "7607568": {
+      "title": "Account Executive, Enterprise - Billing (Existing Business)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100539+00:00"
+    },
+    "7539429": {
+      "title": "Account Executive - Enterprise Germany ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100540+00:00"
+    },
+    "7458833": {
+      "title": "Account Executive, Enterprise (Hunter)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100542+00:00"
+    },
+    "7528816": {
+      "title": "Account Executive, Enterprise (Hunter), Japan",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100543+00:00"
+    },
+    "7218796": {
+      "title": "Account Executive, Enterprise Platforms (New Business)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100545+00:00"
+    },
+    "7664841": {
+      "title": "Account Executive, Funded Startups - New Business",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100546+00:00"
+    },
+    "7746888": {
+      "title": "Account Executive, Funded Startups - New Business ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100548+00:00"
+    },
+    "7451366": {
+      "title": "Account Executive (Hunter) , UK Enterprise Retail",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100549+00:00"
+    },
+    "7394627": {
+      "title": "Account Executive, Iberia",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100550+00:00"
+    },
+    "7483724": {
+      "title": "Account Executive, Italy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100552+00:00"
+    },
+    "7542218": {
+      "title": "Account Executive, Marketplace ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100553+00:00"
+    },
+    "7576967": {
+      "title": "Account Executive, Platforms (Existing Business)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100555+00:00"
+    },
+    "7353623": {
+      "title": "Account Executive, Platforms, Existing Business (French Speaking)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100556+00:00"
+    },
+    "7451383": {
+      "title": "Account Executive, Platforms (French Speaking)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100557+00:00"
+    },
+    "7577015": {
+      "title": "Account Executive, Platforms (Grower)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100559+00:00"
+    },
+    "7459450": {
+      "title": "Account Executive, Platforms (Grower)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100560+00:00"
+    },
+    "7675661": {
+      "title": "Account Executive, Product - Buy Now Pay Later",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100562+00:00"
+    },
+    "7393169": {
+      "title": "Account Executive, Product Sales, Billing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100563+00:00"
+    },
+    "7728365": {
+      "title": "Account Executive, Product Sales - Capital",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100565+00:00"
+    },
+    "7455982": {
+      "title": "Account Executive, Product Sales, Optimized Checkout",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100566+00:00"
+    },
+    "7782969": {
+      "title": "Account Executive, Product Sales - Payouts",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100568+00:00"
+    },
+    "7555127": {
+      "title": "Account Executive, SMB - Existing Business (French-speaking)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100569+00:00"
+    },
+    "7277406": {
+      "title": "Account Executive, SMB (New Business)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100570+00:00"
+    },
+    "7339700": {
+      "title": "Account Executive, Startup Platforms (Existing Business)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100574+00:00"
+    },
+    "7452593": {
+      "title": "Accounts Receivable Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100576+00:00"
+    },
+    "7118945": {
+      "title": "Accounts Receivable Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100577+00:00"
+    },
+    "7434713": {
+      "title": "Administrative Coordinator",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100579+00:00"
+    },
+    "7844214": {
+      "title": "AEO/GEO Marketing Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100580+00:00"
+    },
+    "7286376": {
+      "title": "AI/ML Engineering Manager, Payment Intelligence",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100582+00:00"
+    },
+    "7694113": {
+      "title": "AML Operations Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100583+00:00"
+    },
+    "7543559": {
+      "title": "Android Engineer, Terminal",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100585+00:00"
+    },
+    "7550154": {
+      "title": "Android Engineer, Terminal Developer Productivity",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100586+00:00"
+    },
+    "7778627": {
+      "title": "Android Engineer, Terminal Global Payments",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100588+00:00"
+    },
+    "7557403": {
+      "title": "Android Engineer, Terminal OS Platform",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100589+00:00"
+    },
+    "7764914": {
+      "title": "APAC Executive Marketing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100591+00:00"
+    },
+    "7695357": {
+      "title": "Audit & Regulatory Management Lead, Regulatory Affairs",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100592+00:00"
+    },
+    "7657130": {
+      "title": "AV Builds and Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100593+00:00"
+    },
+    "7675097": {
+      "title": "AV Builds and Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100595+00:00"
+    },
+    "7737241": {
+      "title": "Backend / API Engineer, Billing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100596+00:00"
+    },
+    "7737237": {
+      "title": "Backend / API Engineer, Billing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100598+00:00"
+    },
+    "6176758": {
+      "title": "Backend/API Engineer, Money as a Service",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100599+00:00"
+    },
+    "7369543": {
+      "title": "Backend / API Engineer, Payouts",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100601+00:00"
+    },
+    "7579264": {
+      "title": "Backend / API Engineer, Privacy Products",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100602+00:00"
+    },
+    "7826765": {
+      "title": "Backend Engineer, AI Security",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100603+00:00"
+    },
+    "4921361": {
+      "title": "Backend Engineer/API, Payments and Risk",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100605+00:00"
+    },
+    "7217048": {
+      "title": "Backend Engineer, Billing/Tax",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100606+00:00"
+    },
+    "6567253": {
+      "title": "Backend Engineer, Core Tech, Canada",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100608+00:00"
+    },
+    "7182617": {
+      "title": "Backend Engineer, Core Technology",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100609+00:00"
+    },
+    "6865161": {
+      "title": "Backend Engineer, Data",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100610+00:00"
+    },
+    "7292520": {
+      "title": "Backend Engineer, Developer Experience & Product Platform ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100612+00:00"
+    },
+    "7476555": {
+      "title": "Backend Engineer, Developer Experience & Product Platform ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100613+00:00"
+    },
+    "7249744": {
+      "title": "Backend Engineer, Forward Deployed Engineering",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100615+00:00"
+    },
+    "7232592": {
+      "title": "Backend Engineer, Payments and Risk",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100616+00:00"
+    },
+    "6163230": {
+      "title": "Backend Engineer, Payments and Risk",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100618+00:00"
+    },
+    "7235875": {
+      "title": "Backend Engineer, Privy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100619+00:00"
+    },
+    "7115730": {
+      "title": "Billing Solutions Architect",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100620+00:00"
+    },
+    "7793636": {
+      "title": "Brand Designer, Creative Labs",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100622+00:00"
+    },
+    "7476752": {
+      "title": "Brand Designer, Link",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100623+00:00"
+    },
+    "7179634": {
+      "title": "Bridge - Operations Associate ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100625+00:00"
+    },
+    "7748617": {
+      "title": "Bridge Operations Associate ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100626+00:00"
+    },
+    "7456081": {
+      "title": "Bridge - Operations Associate, Financial Crimes (AML Investigations)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100628+00:00"
+    },
+    "7524334": {
+      "title": "Business Development Manager, Agentic Commerce",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100629+00:00"
+    },
+    "7584016": {
+      "title": "Campaign Operations Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100630+00:00"
+    },
+    "7551322": {
+      "title": "Capital & Liquidity Risk Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100632+00:00"
+    },
+    "7682459": {
+      "title": "Chief of Staff, Alliances Channels and Industries",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100633+00:00"
+    },
+    "7572925": {
+      "title": "Chief Operating Officer (COO) & Deputy Trust Officer, Bridge",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100635+00:00"
+    },
+    "7815794": {
+      "title": "Collections Program Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100636+00:00"
+    },
+    "7398150": {
+      "title": "Collections Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100638+00:00"
+    },
+    "7823081": {
+      "title": "Commercial Counsel,APAC",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100639+00:00"
+    },
+    "7392188": {
+      "title": "Commercial Counsel, Crypto",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100641+00:00"
+    },
+    "7564387": {
+      "title": "Compensation Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100642+00:00"
+    },
+    "7808044": {
+      "title": "Compensation Design & Programs Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100644+00:00"
+    },
+    "7587357": {
+      "title": "Compliance Analyst, Luxembourg",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100645+00:00"
+    },
+    "7733301": {
+      "title": "Consumer Operations Associate",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100646+00:00"
+    },
+    "7364062": {
+      "title": "Content Activation Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100648+00:00"
+    },
+    "7741833": {
+      "title": "Contracting Operations Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100649+00:00"
+    },
+    "7618067": {
+      "title": "Corporate Accountant",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100651+00:00"
+    },
+    "7804276": {
+      "title": "Corporate Events Manager, Expo",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100652+00:00"
+    },
+    "7736482": {
+      "title": "Corporate Network Engineering Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100654+00:00"
+    },
+    "7824139": {
+      "title": "Creative Design Operations Associate (Motion)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100655+00:00"
+    },
+    "7824143": {
+      "title": "Creative Design Operations Associate (Static)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100656+00:00"
+    },
+    "7722938": {
+      "title": "Credit Operations Analyst, Risk Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100658+00:00"
+    },
+    "7612192": {
+      "title": "Credit Risk Analyst, North American Underwriter",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100659+00:00"
+    },
+    "7456167": {
+      "title": "Credit Risk Operations Associate (CDMX)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100661+00:00"
+    },
+    "7550951": {
+      "title": "Credit Risk Strategist, Risk Foundations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100662+00:00"
+    },
+    "7774312": {
+      "title": "Crypto Product Accountant",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100664+00:00"
+    },
+    "7587353": {
+      "title": "Customer Funds Reconciliation and Safeguarding Specialist, Luxembourg",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100665+00:00"
+    },
+    "7810205": {
+      "title": "Customer Success Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100666+00:00"
+    },
+    "7768901": {
+      "title": "Customer Success Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100668+00:00"
+    },
+    "7430701": {
+      "title": "Customer Success Manager (Greater China)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100669+00:00"
+    },
+    "6282403": {
+      "title": "Data Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100671+00:00"
+    },
+    "7610132": {
+      "title": "Data Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100672+00:00"
+    },
+    "5416444": {
+      "title": "Data Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100674+00:00"
+    },
+    "7285986": {
+      "title": "Data Analyst, Intern (Master's degree)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100675+00:00"
+    },
+    "5922987": {
+      "title": "Data Governance Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100676+00:00"
+    },
+    "7587256": {
+      "title": "Data - Regulatory Reporting, Luxembourg",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100678+00:00"
+    },
+    "7644403": {
+      "title": "Data Science Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100679+00:00"
+    },
+    "7440963": {
+      "title": "Data Science Manager, Growth",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100681+00:00"
+    },
+    "5895430": {
+      "title": "Data Scientist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100682+00:00"
+    },
+    "7809414": {
+      "title": "Data Scientist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100684+00:00"
+    },
+    "7743311": {
+      "title": "Data Writer and Editor ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100685+00:00"
+    },
+    "7685049": {
+      "title": "Deal Pricing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100686+00:00"
+    },
+    "7144975": {
+      "title": "Design Engineer, Presence",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100688+00:00"
+    },
+    "7577341": {
+      "title": "EDD Quality Associate",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100689+00:00"
+    },
+    "7584203": {
+      "title": "EMEA ABM and Executive Marketing Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100691+00:00"
+    },
+    "7790433": {
+      "title": "EMEA Sales Programs Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100692+00:00"
+    },
+    "7175216": {
+      "title": "Employee Relations Partner",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100693+00:00"
+    },
+    "7808299": {
+      "title": "Engagement Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100695+00:00"
+    },
+    "7775314": {
+      "title": "Engagement Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100696+00:00"
+    },
+    "7657999": {
+      "title": "Engineering Manager, Agent Experience",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100698+00:00"
+    },
+    "7334661": {
+      "title": "Engineering Manager, Agentic Commerce",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100699+00:00"
+    },
+    "7841757": {
+      "title": "Engineering Manager, APAC & EMEA Cards",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100701+00:00"
+    },
+    "7827623": {
+      "title": "Engineering Manager -  Batch Compute Infrastructure",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100702+00:00"
+    },
+    "7815846": {
+      "title": "Engineering Manager, Compliance Data and Evidence Engine",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100704+00:00"
+    },
+    "7762324": {
+      "title": "Engineering Manager, Connect",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100705+00:00"
+    },
+    "7802210": {
+      "title": "Engineering Manager, Contracting Platform ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100707+00:00"
+    },
+    "7762570": {
+      "title": "Engineering Manager, Core Events",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100708+00:00"
+    },
+    "7835108": {
+      "title": "Engineering Manager - Core Performance",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100710+00:00"
+    },
+    "7688358": {
+      "title": "Engineering Manager, Data Transformation",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100711+00:00"
+    },
+    "7736943": {
+      "title": "Engineering Manager, Developer Productivity AI",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100713+00:00"
+    },
+    "7655222": {
+      "title": "Engineering Manager - Fraud Risk ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100714+00:00"
+    },
+    "7657997": {
+      "title": "Engineering Manager, HADR",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100715+00:00"
+    },
+    "7555997": {
+      "title": "Engineering Manager, Money Management Expansion",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100717+00:00"
+    },
+    "7747391": {
+      "title": "Engineering Manager of Managers, Data Platform",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100718+00:00"
+    },
+    "7773553": {
+      "title": "Engineering Manager - Operations Infrastructure  ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100720+00:00"
+    },
+    "7772329": {
+      "title": "Engineering Manager, Payment Intelligence",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100721+00:00"
+    },
+    "7556256": {
+      "title": "Engineering Manager - Payments",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100723+00:00"
+    },
+    "7663636": {
+      "title": "Engineering Manager, Payments API",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100724+00:00"
+    },
+    "7729216": {
+      "title": "Engineering Manager, Privy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100725+00:00"
+    },
+    "7525370": {
+      "title": "Engineering Manager, Sales Systems",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100727+00:00"
+    },
+    "7613386": {
+      "title": "Engineering Manager, Streaming Services",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100728+00:00"
+    },
+    "7747178": {
+      "title": "Engineering Program Manager, Infrastructure",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100730+00:00"
+    },
+    "7739260": {
+      "title": "Engineering Program Manager, Tech GRC",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100731+00:00"
+    },
+    "7693271": {
+      "title": "Enterprise Account Executive ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100733+00:00"
+    },
+    "7645715": {
+      "title": "Enterprise Marketing Manager, Industry - AUNZ ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100734+00:00"
+    },
+    "7375100": {
+      "title": "Enterprise Platforms Sales Manager (Existing Business)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100736+00:00"
+    },
+    "7742552": {
+      "title": "Enterprise Risk Management Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100737+00:00"
+    },
+    "7587347": {
+      "title": "Enterprise Risk Management Specialist, Luxembourg",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100738+00:00"
+    },
+    "7566383": {
+      "title": "Enterprise Services Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100740+00:00"
+    },
+    "7779497": {
+      "title": "Enterprise Solutions Architecture Manager, AMER",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100741+00:00"
+    },
+    "7722641": {
+      "title": "EU Market Development, Climate",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100743+00:00"
+    },
+    "7606257": {
+      "title": "Executive Briefing Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100744+00:00"
+    },
+    "7787598": {
+      "title": "Executive Briefing Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100745+00:00"
+    },
+    "7543898": {
+      "title": "Field Marketing Manager, Northern Europe/MEA",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100747+00:00"
+    },
+    "7463755": {
+      "title": "Finance and Strategy Partner",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100748+00:00"
+    },
+    "7576878": {
+      "title": "Finance & Strategy Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100750+00:00"
+    },
+    "7597622": {
+      "title": "Finance & Strategy - Finance Analytics Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100751+00:00"
+    },
+    "7812163": {
+      "title": "Finance & Strategy Partner",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100753+00:00"
+    },
+    "7717412": {
+      "title": "Finance & Strategy Partner",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100754+00:00"
+    },
+    "7061516": {
+      "title": "Financial Data Analyst, Technical Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100755+00:00"
+    },
+    "7278434": {
+      "title": "Financial Data Analyst-User Billing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100757+00:00"
+    },
+    "7748114": {
+      "title": "Forward Deployed AI Accelerator, Marketing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100758+00:00"
+    },
+    "7747638": {
+      "title": "Forward Deployed AI Accelerator, Marketing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100760+00:00"
+    },
+    "7747640": {
+      "title": "Forward Deployed AI Accelerator, Marketing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100761+00:00"
+    },
+    "7230452": {
+      "title": "Forward Deployed Engineer, Privy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100763+00:00"
+    },
+    "7671038": {
+      "title": "Forward Deployed Engineer, Professional Services",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100764+00:00"
+    },
+    "7651078": {
+      "title": "Fraud Operations Associate SDC",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100765+00:00"
+    },
+    "7608396": {
+      "title": "Fraud Operations Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100767+00:00"
+    },
+    "7685460": {
+      "title": "Fraud Operations Team Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100768+00:00"
+    },
+    "7833796": {
+      "title": "Frontend Engineer, Payments & Risk",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100770+00:00"
+    },
+    "7656562": {
+      "title": "Frontend Engineer, Privy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100771+00:00"
+    },
+    "7743307": {
+      "title": "Frontend Platform Engineer, JavaScript Infrastructure",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100773+00:00"
+    },
+    "7597624": {
+      "title": "F&S COE Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100774+00:00"
+    },
+    "7597613": {
+      "title": "F&S COE Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100776+00:00"
+    },
+    "7737239": {
+      "title": " Full Stack Engineer, Billing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100777+00:00"
+    },
+    "7532806": {
+      "title": "Full Stack Engineer, Collaboration",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100778+00:00"
+    },
+    "6567104": {
+      "title": "Full Stack Engineer, Developer Experience & Product Platform",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100780+00:00"
+    },
+    "7403151": {
+      "title": "Full Stack Engineer, Ecosystem",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100781+00:00"
+    },
+    "7531158": {
+      "title": "Full Stack Engineer, Expansion",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100783+00:00"
+    },
+    "6447175": {
+      "title": "Full Stack Engineer, Link",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100784+00:00"
+    },
+    "6606581": {
+      "title": "Full Stack Engineer, Money as a Service",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100786+00:00"
+    },
+    "7091959": {
+      "title": "Fullstack Engineer, Privy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100787+00:00"
+    },
+    "7436086": {
+      "title": "Full Stack Engineer, Web Presence and Platform",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100789+00:00"
+    },
+    "7523947": {
+      "title": "Global Head of Specialist Solutions Architecture, Revenue",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100790+00:00"
+    },
+    "7587920": {
+      "title": "Global Indirect Tax Compliance",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100792+00:00"
+    },
+    "7553098": {
+      "title": "Global People Support - Team Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100793+00:00"
+    },
+    "7312491": {
+      "title": "Growth Marketing Manager, Lifecycle",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100794+00:00"
+    },
+    "7677136": {
+      "title": "GSI Partner Development Lead- EMEA",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100796+00:00"
+    },
+    "7739361": {
+      "title": "Head of Central GTM Finance & Strategy ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100797+00:00"
+    },
+    "7684149": {
+      "title": "Head of Communications, APAC",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100799+00:00"
+    },
+    "7736640": {
+      "title": "Head of Connect & Crypto, Finance & Strategy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100800+00:00"
+    },
+    "7813067": {
+      "title": "Head of Global Network Partnerships",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100802+00:00"
+    },
+    "7375436": {
+      "title": "Head of Industry Pursuits, Enterprise Platforms (New Business)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100803+00:00"
+    },
+    "7583815": {
+      "title": "Head of Integrated Campaigns, Startups & AI",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100804+00:00"
+    },
+    "7760773": {
+      "title": "Head of Platform Sales, AUNZ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100806+00:00"
+    },
+    "7826843": {
+      "title": "Head of Revenue and Growth, Canada",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100807+00:00"
+    },
+    "7813129": {
+      "title": "Head of Sales - Large Enterprise, Growth",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100809+00:00"
+    },
+    "7337546": {
+      "title": "Head of Startups and Velocity Sales Development",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100810+00:00"
+    },
+    "7730667": {
+      "title": "Head of User Risk Strategy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100812+00:00"
+    },
+    "7765976": {
+      "title": "HRIS Engineer",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100813+00:00"
+    },
+    "7656704": {
+      "title": "Implementation Consultant, Accelerate",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100814+00:00"
+    },
+    "7649097": {
+      "title": "Implementation Consultant (German speaking)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100816+00:00"
+    },
+    "7744344": {
+      "title": "Implementation Consultant, Japan",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100817+00:00"
+    },
+    "7566217": {
+      "title": "India Sales Strategy and Operations Business Partner",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100819+00:00"
+    },
+    "7589400": {
+      "title": "Indirect Tax Advisory Consultant",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100820+00:00"
+    },
+    "7462961": {
+      "title": "Infrastructure Engineer, Privy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100822+00:00"
+    },
+    "7584018": {
+      "title": "Integrated Campaigns Manager, Account-Based Marketing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100823+00:00"
+    },
+    "7587812": {
+      "title": "Integrated Campaigns Manager, Startups & AI",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100825+00:00"
+    },
+    "7703911": {
+      "title": "Integration Engineer (AUNZ)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100826+00:00"
+    },
+    "7594874": {
+      "title": "Integration Engineer (Client facing)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100827+00:00"
+    },
+    "6651831": {
+      "title": "Integration Engineer, Professional Services",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100829+00:00"
+    },
+    "7569605": {
+      "title": "Internal Audit Lead, Merchant Acquirer Limited Purpose Bank (MALPB)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100830+00:00"
+    },
+    "7678541": {
+      "title": "Internal Audit Lead - Treasury, Finance & Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100832+00:00"
+    },
+    "7743714": {
+      "title": "Ireland Communications Lead ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100833+00:00"
+    },
+    "7587254": {
+      "title": "IT Governance, Risk & Compliance (GRC) Analyst, Luxembourg",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100835+00:00"
+    },
+    "7733233": {
+      "title": "IT Support Engineer",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100836+00:00"
+    },
+    "7733216": {
+      "title": "IT Support Engineer",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100837+00:00"
+    },
+    "7757552": {
+      "title": "Japan Regulatory Compliance & Money Laundering Reporting Officer (RC & MLRO)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100839+00:00"
+    },
+    "7543885": {
+      "title": "KYC Operations Associate, India",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100840+00:00"
+    },
+    "7773831": {
+      "title": "Learning Architect",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100842+00:00"
+    },
+    "7557501": {
+      "title": "Legal Counsel, APAC Marketing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100843+00:00"
+    },
+    "7557920": {
+      "title": "Legal Counsel, EMEA Marketing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100844+00:00"
+    },
+    "6209187": {
+      "title": "Legal Entity Controller",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100846+00:00"
+    },
+    "7811935": {
+      "title": "MaaS User Oversight Risk Strategist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100847+00:00"
+    },
+    "7079044": {
+      "title": "Machine Learning Engineer, Payments ML Accelerator",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100849+00:00"
+    },
+    "7629052": {
+      "title": "Machine Learning Engineer, Stripe Assistant ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100850+00:00"
+    },
+    "7384709": {
+      "title": "Machine Learning Engineer, Supportability",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100852+00:00"
+    },
+    "7813942": {
+      "title": "Machine Learning Engineer, Support Experience",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100853+00:00"
+    },
+    "6785098": {
+      "title": "Manager, Financial Crimes (AML)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100854+00:00"
+    },
+    "7703750": {
+      "title": "Manager - Legal Entity Controller",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100856+00:00"
+    },
+    "7337544": {
+      "title": "Manager, Sales Development",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100857+00:00"
+    },
+    "7702181": {
+      "title": "Manager, Sales Development",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100859+00:00"
+    },
+    "7767222": {
+      "title": "Manager, Technical Account Management",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100860+00:00"
+    },
+    "7664667": {
+      "title": "Manager, Technical Account Management",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100862+00:00"
+    },
+    "7584867": {
+      "title": "Marketing Content Operations Associate",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100863+00:00"
+    },
+    "7634113": {
+      "title": "Marketing Manager, SMB and Mid-Market - EMEA",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100865+00:00"
+    },
+    "7573680": {
+      "title": "Marketing Operations Associate (Automation)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100866+00:00"
+    },
+    "7253148": {
+      "title": "Marketing Operations Manager, Americas",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100867+00:00"
+    },
+    "7639823": {
+      "title": "Marketing Operations Program Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100869+00:00"
+    },
+    "7644883": {
+      "title": "Market Intelligence Program Manager ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100870+00:00"
+    },
+    "7789539": {
+      "title": "Mid-Market Account Executive (Japan)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100872+00:00"
+    },
+    "7795191": {
+      "title": "Monetization Operations Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100873+00:00"
+    },
+    "7724828": {
+      "title": "National Account Executive, Enterprise (India)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100875+00:00"
+    },
+    "7589897": {
+      "title": "Network Solution Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100876+00:00"
+    },
+    "7363874": {
+      "title": "Network Solution Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100877+00:00"
+    },
+    "7589978": {
+      "title": "Network Solution Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100879+00:00"
+    },
+    "7706837": {
+      "title": "Onboarding Coordinator",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100880+00:00"
+    },
+    "7236933": {
+      "title": "Operations Associate, Apprenticeship",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100882+00:00"
+    },
+    "5902523": {
+      "title": "Operations Associate, Financial Crimes (AML Investigations)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100883+00:00"
+    },
+    "7456083": {
+      "title": "Operations Associate, Financial Crimes Bridge KYB",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100885+00:00"
+    },
+    "7202953": {
+      "title": "Operations Associate, Financial Crimes EDD/PEP",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100886+00:00"
+    },
+    "7520686": {
+      "title": "Operations Associate, GTM Accelerate",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100888+00:00"
+    },
+    "7780256": {
+      "title": "Operations Associate, GTM Accelerate (Bangalore)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100889+00:00"
+    },
+    "7393071": {
+      "title": "Operations Associate, GTM Onboarding Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100891+00:00"
+    },
+    "7544547": {
+      "title": "Operations Associate, New Grad (Mexico)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100892+00:00"
+    },
+    "7813141": {
+      "title": "Operations Associate - Product Support Operations (CDMX)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100894+00:00"
+    },
+    "6891805": {
+      "title": "Operations Associate, Sanctions",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100895+00:00"
+    },
+    "7540835": {
+      "title": "Operations Associate, Sanctions (FinCrime)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100897+00:00"
+    },
+    "7671302": {
+      "title": "Operations Manager, Center of Excellence",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100898+00:00"
+    },
+    "7576867": {
+      "title": "Operations Manager, Enhanced Due Diligence",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100900+00:00"
+    },
+    "7812209": {
+      "title": "Operations Program Manager, Managed Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100901+00:00"
+    },
+    "5853649": {
+      "title": "Oracle Fusion apps-Techno functional consultant",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100902+00:00"
+    },
+    "7617049": {
+      "title": "Paid Digital Marketing Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100904+00:00"
+    },
+    "7289456": {
+      "title": "Partner Development Manager (Banks)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100905+00:00"
+    },
+    "7249573": {
+      "title": "Partner Development Manager, Financial Partnership Capabilities ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100907+00:00"
+    },
+    "7556207": {
+      "title": "Partner Development Manager- Germany",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100908+00:00"
+    },
+    "7697675": {
+      "title": "Partner Development Manager, Global Networks",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100910+00:00"
+    },
+    "7697672": {
+      "title": "Partner Development Manager, Strategic Partnerships",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100911+00:00"
+    },
+    "7607761": {
+      "title": "Partner Solutions Architect - AWS",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100912+00:00"
+    },
+    "7411434": {
+      "title": "Partner Solutions Architect - Consulting Partners",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100914+00:00"
+    },
+    "7614951": {
+      "title": "Partner Solutions Architect, UK",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100915+00:00"
+    },
+    "5584791": {
+      "title": "Payments Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100917+00:00"
+    },
+    "7554002": {
+      "title": "Payments Fraud Investigator",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100918+00:00"
+    },
+    "7409686": {
+      "title": "Payments Performance Strategist, PINless Debit",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100920+00:00"
+    },
+    "7773621": {
+      "title": "People Consultant",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100921+00:00"
+    },
+    "7815571": {
+      "title": "People Operations Associate - Fixed Term Contract",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100922+00:00"
+    },
+    "7466921": {
+      "title": "People Partner, GTM",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100924+00:00"
+    },
+    "7542823": {
+      "title": "People Partner, Technology",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100925+00:00"
+    },
+    "7594204": {
+      "title": "People Process Optimization Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100927+00:00"
+    },
+    "7603763": {
+      "title": "People Process Optimization Team Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100928+00:00"
+    },
+    "7285974": {
+      "title": "PhD Data Scientist, Intern",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100929+00:00"
+    },
+    "7216664": {
+      "title": "PhD Machine Learning Engineer, Intern",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100931+00:00"
+    },
+    "7216668": {
+      "title": "PhD Machine Learning Engineer, New Grad",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100932+00:00"
+    },
+    "7537163": {
+      "title": "Policy Enforcement Strategist ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100934+00:00"
+    },
+    "7649036": {
+      "title": "Processing Cost Accountant",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100935+00:00"
+    },
+    "7813945": {
+      "title": "Product Accounting Data Insights",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100936+00:00"
+    },
+    "7384489": {
+      "title": "Product Accounting, Loss Reserves and Data Analysis",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100938+00:00"
+    },
+    "7568117": {
+      "title": "Product Designer",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100939+00:00"
+    },
+    "7775422": {
+      "title": "Product Designer, Crypto",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100941+00:00"
+    },
+    "7824008": {
+      "title": "Product Designer, Global",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100942+00:00"
+    },
+    "7657191": {
+      "title": "Product Designer, Growth Pricing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100944+00:00"
+    },
+    "7520327": {
+      "title": "Product Designer, Issuing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100945+00:00"
+    },
+    "7663023": {
+      "title": "Product Designer, Stablecoin",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100947+00:00"
+    },
+    "7655023": {
+      "title": "Product Lead, AI",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100948+00:00"
+    },
+    "7561053": {
+      "title": "Product Manager, Banking as a Service",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100950+00:00"
+    },
+    "7721834": {
+      "title": "Product Manager, Capital",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100951+00:00"
+    },
+    "7561551": {
+      "title": "Product Manager, Commerce Systems",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100952+00:00"
+    },
+    "7768979": {
+      "title": "Product Manager, EMEA Payments Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100954+00:00"
+    },
+    "7812346": {
+      "title": "Product Manager IC-02",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100955+00:00"
+    },
+    "7392697": {
+      "title": "Product Manager, Link Consumer Product",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100957+00:00"
+    },
+    "7547596": {
+      "title": "Product Manager, Local Payment Methods EMEA",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100958+00:00"
+    },
+    "7651697": {
+      "title": "Product Manager, Local Payment Methods EMEA",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100960+00:00"
+    },
+    "7486955": {
+      "title": "Product Manager, Local Payment Methods EMEA",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100961+00:00"
+    },
+    "7737124": {
+      "title": "Product Manager: New Grad Accelerator",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100962+00:00"
+    },
+    "7176530": {
+      "title": "Product Manager, Payments",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100964+00:00"
+    },
+    "7580706": {
+      "title": "Product Manager, Payments Intelligence",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100965+00:00"
+    },
+    "6473321": {
+      "title": "Product Manager, Revenue and Financial Automation ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100967+00:00"
+    },
+    "7625842": {
+      "title": "Product Manager, Risk & Compliance",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100968+00:00"
+    },
+    "7834628": {
+      "title": "Product Manager, SEA",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100970+00:00"
+    },
+    "6651889": {
+      "title": "Product Manager, Stripe Infrastructure",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100971+00:00"
+    },
+    "7440429": {
+      "title": "Product Manager, Support Products - Support Experience",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100973+00:00"
+    },
+    "7397265": {
+      "title": "Product Manager, Terminal Device Expansion",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100974+00:00"
+    },
+    "6683456": {
+      "title": "Product Manager, Terminal - Unified Commerce",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100976+00:00"
+    },
+    "7773463": {
+      "title": "Product Marketing Lead, Fraud and Risk",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100977+00:00"
+    },
+    "7773461": {
+      "title": "Product Marketing Lead, Stripe Tax and Data",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100978+00:00"
+    },
+    "6348471": {
+      "title": "Product Marketing Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100980+00:00"
+    },
+    "7832098": {
+      "title": "Product Marketing Manager, Portfolio Pricing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100981+00:00"
+    },
+    "7812965": {
+      "title": "Product Marketing Manager, Pricing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100983+00:00"
+    },
+    "7591150": {
+      "title": "Product Marketing Manager, Radar",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100984+00:00"
+    },
+    "7421572": {
+      "title": "Product Marketing Manager, Stripe Billing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100986+00:00"
+    },
+    "7564364": {
+      "title": "Product Marketing, Velocity (Mid-market & SMB) Segment",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100987+00:00"
+    },
+    "7260872": {
+      "title": "Product Sales Finance & Strategy Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100988+00:00"
+    },
+    "7389837": {
+      "title": "Product Sales Manager, Beachfront",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100990+00:00"
+    },
+    "7391537": {
+      "title": "Product Sales Manager, Capital",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100991+00:00"
+    },
+    "7678670": {
+      "title": "Product Support, Bridge ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100993+00:00"
+    },
+    "7545852": {
+      "title": "Product Support Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100994+00:00"
+    },
+    "6814190": {
+      "title": "Product Support Operations Associate, Weekend Shift ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100996+00:00"
+    },
+    "7645601": {
+      "title": "Product Support Operations Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100997+00:00"
+    },
+    "7390485": {
+      "title": "Product Support Operations, Team Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.100999+00:00"
+    },
+    "7524531": {
+      "title": "Product Support Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101000+00:00"
+    },
+    "7572741": {
+      "title": "Product Support Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101001+00:00"
+    },
+    "7604228": {
+      "title": "Product Support Specialist, Money Management",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101003+00:00"
+    },
+    "7827182": {
+      "title": "Professional Services Engagement Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101004+00:00"
+    },
+    "7061338": {
+      "title": "Program Manager, Card Network Office (CNO) ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101006+00:00"
+    },
+    "7656504": {
+      "title": "Program Manager, GTM Planning",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101007+00:00"
+    },
+    "7089901": {
+      "title": "Program Manager, People Operations Strategy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101009+00:00"
+    },
+    "7214197": {
+      "title": "Program Manager, Risk Ops Enablement",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101010+00:00"
+    },
+    "7227498": {
+      "title": "Program Manager - TechOps",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101012+00:00"
+    },
+    "7456364": {
+      "title": "Recruiting Coordinator (FTE)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101013+00:00"
+    },
+    "7650177": {
+      "title": "Regulatory Reporting Program Manager, Stablecoin",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101015+00:00"
+    },
+    "7584735": {
+      "title": "Renewals Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101016+00:00"
+    },
+    "7767151": {
+      "title": "Reserve Operations Deputy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101017+00:00"
+    },
+    "7230921": {
+      "title": "Risk Operations Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101019+00:00"
+    },
+    "7430332": {
+      "title": "Risk Operations Analyst, Financial Crimes",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101020+00:00"
+    },
+    "7430296": {
+      "title": "Risk Operations Analyst, Financial Crimes Programs",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101022+00:00"
+    },
+    "5423044": {
+      "title": "Risk Operations Associate ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101023+00:00"
+    },
+    "7664549": {
+      "title": "Risk Operations Associate (CDMX) - User Policy Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101025+00:00"
+    },
+    "7815282": {
+      "title": "Risk Operations Associate, Verifications (CDMX)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101026+00:00"
+    },
+    "7309521": {
+      "title": "Risk Partnerships Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101028+00:00"
+    },
+    "7809397": {
+      "title": "Risk Strategist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101029+00:00"
+    },
+    "7697973": {
+      "title": "Risk Strategist, Onboarding and Compliance",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101030+00:00"
+    },
+    "7594866": {
+      "title": "Risk Strategist, User Risk Strategy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101032+00:00"
+    },
+    "7355652": {
+      "title": "SaaS Operations Engineer",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101033+00:00"
+    },
+    "7633559": {
+      "title": "Sales Compensation Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101035+00:00"
+    },
+    "7739207": {
+      "title": "Sales Compensation Analytics & Systems Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101036+00:00"
+    },
+    "6470774": {
+      "title": "Sales Development Representative",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101037+00:00"
+    },
+    "6570253": {
+      "title": "Sales Development Representative",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101039+00:00"
+    },
+    "6570259": {
+      "title": "Sales Development Representative (German-Speaking) ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101040+00:00"
+    },
+    "7601119": {
+      "title": "Sales Development Representative, Greater China",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101042+00:00"
+    },
+    "7355424": {
+      "title": "Sales Development Representative, Japan",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101043+00:00"
+    },
+    "7813755": {
+      "title": "Sales Development Representative (Mandarin-speaking)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101044+00:00"
+    },
+    "7601347": {
+      "title": "Sales Enablement Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101046+00:00"
+    },
+    "7359215": {
+      "title": "Sales Enablement & Training Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101047+00:00"
+    },
+    "7739104": {
+      "title": "Sales Manager - Commercial",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101049+00:00"
+    },
+    "7306952": {
+      "title": "Sales Manager, Mid Market",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101050+00:00"
+    },
+    "7825561": {
+      "title": "Sales Manager, Startups",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101052+00:00"
+    },
+    "7790430": {
+      "title": "Sales Strategy & Operations, Sales Business Partner",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101053+00:00"
+    },
+    "7294292": {
+      "title": "Scaled Account Executive, Japan",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101054+00:00"
+    },
+    "7325566": {
+      "title": "SDC Operations Manager, Financial Crimes (AML)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101056+00:00"
+    },
+    "7736171": {
+      "title": "SDK Engineer (React/React Native), Privy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101057+00:00"
+    },
+    "7657732": {
+      "title": "Security Engineer, Bridge",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101059+00:00"
+    },
+    "7776179": {
+      "title": "Security Engineer, Bridge",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101060+00:00"
+    },
+    "7820898": {
+      "title": "Security Engineer - Offensive Security",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101061+00:00"
+    },
+    "7827230": {
+      "title": "Security Engineer - Threat Detection",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101063+00:00"
+    },
+    "7551324": {
+      "title": "Senior Debt Capital Markets Specialist, Treasury-Finance",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101069+00:00"
+    },
+    "7457268": {
+      "title": "Senior Integration Reliability Engineer, Technical Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101070+00:00"
+    },
+    "7704660": {
+      "title": "Senior People Partner (HRBP)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101072+00:00"
+    },
+    "5323514": {
+      "title": "Senior Staff Engineer  -  Reporting, Accounting, and Data Services",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101073+00:00"
+    },
+    "7688069": {
+      "title": "Senior Staff Product Designer, Agentic Commerce",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101075+00:00"
+    },
+    "7202630": {
+      "title": "Senior Staff Product Designer, Payments",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101076+00:00"
+    },
+    "7409691": {
+      "title": "Senior Staff Software Engineer,  Developer Infrastructure ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101078+00:00"
+    },
+    "7602338": {
+      "title": "SEO Marketing Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101079+00:00"
+    },
+    "7373865": {
+      "title": "Short-form Video & Social, Community Comms",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101080+00:00"
+    },
+    "7364278": {
+      "title": "SMB Account Executive (Japan)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101082+00:00"
+    },
+    "6898905": {
+      "title": "Social Media Customer Support Associate ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101083+00:00"
+    },
+    "7788088": {
+      "title": "Software Engineer",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101085+00:00"
+    },
+    "7808471": {
+      "title": "Software Engineer",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101086+00:00"
+    },
+    "7277110": {
+      "title": "Software Engineer, Bridge",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101088+00:00"
+    },
+    "7618977": {
+      "title": "Software Engineer, Core Technology",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101089+00:00"
+    },
+    "7529428": {
+      "title": "Software Engineer, Data & AI",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101090+00:00"
+    },
+    "7230670": {
+      "title": "Software Engineer, Data Orchestration",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101092+00:00"
+    },
+    "7600792": {
+      "title": "Software Engineer, Experimental Projects",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101093+00:00"
+    },
+    "7436194": {
+      "title": "Software Engineer, Fee Insights",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101095+00:00"
+    },
+    "7176977": {
+      "title": "Software Engineering, New Grad",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101096+00:00"
+    },
+    "7532256": {
+      "title": "Software Engineer, Intern",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101098+00:00"
+    },
+    "7543868": {
+      "title": "Software Engineer, Internal Systems",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101099+00:00"
+    },
+    "7210115": {
+      "title": "Software Engineer, Intern (Summer)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101101+00:00"
+    },
+    "7812279": {
+      "title": "Software Engineer L2",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101102+00:00"
+    },
+    "7376835": {
+      "title": "Software Engineer, Machine Learning Infrastructure",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101103+00:00"
+    },
+    "7555999": {
+      "title": "Software Engineer, Money as a Service",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101105+00:00"
+    },
+    "7208537": {
+      "title": "Software Engineer, Money Movement ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101106+00:00"
+    },
+    "7206515": {
+      "title": "Software Engineer, New Grad",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101108+00:00"
+    },
+    "7529787": {
+      "title": "Software Engineer, Payments",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101109+00:00"
+    },
+    "6717520": {
+      "title": "Software Engineer, Payments and Risk",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101111+00:00"
+    },
+    "7761694": {
+      "title": "Software Engineer, Product Security Data Platforms",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101112+00:00"
+    },
+    "7396679": {
+      "title": "Software Engineer, Secrets Infrastructure",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101113+00:00"
+    },
+    "7826761": {
+      "title": "Software Engineer, Security Analytics Infrastructure",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101115+00:00"
+    },
+    "6967304": {
+      "title": "Software Engineer,Service Ecosystem Sustainability ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101116+00:00"
+    },
+    "7507904": {
+      "title": "Software Engineer - Smart Contract, Bridge",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101118+00:00"
+    },
+    "7366524": {
+      "title": "Solutions Architect (Australia)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101119+00:00"
+    },
+    "7574860": {
+      "title": "Solutions Architect, Commercial (German-Speaking) ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101120+00:00"
+    },
+    "7601663": {
+      "title": "Solutions Architect, Enterprise",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101122+00:00"
+    },
+    "7619227": {
+      "title": "Solutions Architect, Enterprise, France",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101123+00:00"
+    },
+    "7574857": {
+      "title": "Solutions Architect, Enterprise - UK",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101125+00:00"
+    },
+    "7784353": {
+      "title": "Solutions Architect, Italy",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101126+00:00"
+    },
+    "7396509": {
+      "title": "Solutions Architect, Platforms",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101127+00:00"
+    },
+    "7601673": {
+      "title": "Solutions Architect, Platforms - UKI",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101129+00:00"
+    },
+    "7361440": {
+      "title": "Solutions Architect, SMB",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101130+00:00"
+    },
+    "7703909": {
+      "title": "Solutions Architect, Start Ups and SMB (UKI)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101132+00:00"
+    },
+    "7442995": {
+      "title": "Solutions Architect, Startup & SMB (German-speaking)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101133+00:00"
+    },
+    "7434912": {
+      "title": "Solutions Engineer, Bridge",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101134+00:00"
+    },
+    "7739211": {
+      "title": "SOX Business Controls Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101136+00:00"
+    },
+    "7120766": {
+      "title": "Specialist Solutions Architect, Crypto & Stablecoins",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101137+00:00"
+    },
+    "7380371": {
+      "title": "Specialist Solutions Architect, Money Management",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101139+00:00"
+    },
+    "7377591": {
+      "title": "Specialist Solutions Architect, Payments",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101140+00:00"
+    },
+    "7377593": {
+      "title": "Specialist Solutions Architect, Payments",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101142+00:00"
+    },
+    "7365914": {
+      "title": "Specialist Solutions Architect, Radar (Fraud/Risk)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101143+00:00"
+    },
+    "6372750": {
+      "title": "Sr Staff Engineer, Billing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101145+00:00"
+    },
+    "7801457": {
+      "title": "Staff Data Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101146+00:00"
+    },
+    "7568328": {
+      "title": "Staff Data Scientist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101148+00:00"
+    },
+    "7369269": {
+      "title": "Staff Engineer, Account Engineering",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101149+00:00"
+    },
+    "7430826": {
+      "title": "Staff Engineer , Data & AI",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101150+00:00"
+    },
+    "7548037": {
+      "title": "Staff Engineer, Data Engineering Solutions",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101152+00:00"
+    },
+    "7714564": {
+      "title": "Staff Engineer, Edge",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101153+00:00"
+    },
+    "7280343": {
+      "title": "Staff Engineer, Experimental Projects",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101155+00:00"
+    },
+    "7217778": {
+      "title": "Staff Engineer, Financial Business Insights ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101156+00:00"
+    },
+    "7416957": {
+      "title": "Staff Engineer, Payments",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101157+00:00"
+    },
+    "7716032": {
+      "title": "Staff Engineer - Production Eng",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101159+00:00"
+    },
+    "7600571": {
+      "title": "Staff Engineer, Workflow Engine",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101160+00:00"
+    },
+    "7536458": {
+      "title": "Staff Product Designer",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101161+00:00"
+    },
+    "7812856": {
+      "title": "Staff Product Manager, Enterprise (Industries) ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101163+00:00"
+    },
+    "7819059": {
+      "title": "Staff Product Manager, Payments",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101164+00:00"
+    },
+    "7550590": {
+      "title": "Staff Product Manager, Stripe Apps and Extensibility Platform",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101166+00:00"
+    },
+    "7767063": {
+      "title": "Staff Software Engineer, Stream Compute",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101167+00:00"
+    },
+    "7746721": {
+      "title": "Staff Software Engineer, Stripe Dashboard",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101169+00:00"
+    },
+    "7718488": {
+      "title": "Staff Software Engineer, Stripe Scale & Bundles",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101170+00:00"
+    },
+    "7645717": {
+      "title": "Startup Field Marketing Manager - AUNZ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101171+00:00"
+    },
+    "7676921": {
+      "title": "Startup Partner - Northern Europe ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101173+00:00"
+    },
+    "7577505": {
+      "title": "Strategic Finance Partner",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101174+00:00"
+    },
+    "7822560": {
+      "title": "Strategic Program Manager, Support",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101176+00:00"
+    },
+    "7708538": {
+      "title": "Strategic Sourcing Analyst ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101177+00:00"
+    },
+    "7667847": {
+      "title": "Strategy & Analytics Analyst",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101178+00:00"
+    },
+    "7761131": {
+      "title": " Strategy and Analytics Analyst ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101180+00:00"
+    },
+    "7397878": {
+      "title": "Strategy & Operations Analyst, Customer Success",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101181+00:00"
+    },
+    "7733723": {
+      "title": "Strategy & Operations - Global Partnerships",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101183+00:00"
+    },
+    "7624667": {
+      "title": "Stripe Communications (Open Application)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101184+00:00"
+    },
+    "7751786": {
+      "title": "Talent Brand Experience Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101186+00:00"
+    },
+    "7745694": {
+      "title": "Team Lead (KYC/KYB)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101187+00:00"
+    },
+    "7290256": {
+      "title": "Team Lead, Risk Operations (PRO)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101189+00:00"
+    },
+    "6458492": {
+      "title": "Technical Account Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101190+00:00"
+    },
+    "7549012": {
+      "title": "Technical Account Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101191+00:00"
+    },
+    "6613516": {
+      "title": "Technical Account Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101193+00:00"
+    },
+    "7781671": {
+      "title": "Technical Account Manager, French Speaking",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101194+00:00"
+    },
+    "6941317": {
+      "title": "Technical Account Manager, French-Speaking",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101196+00:00"
+    },
+    "7594376": {
+      "title": "Technical Account Manager, German OR Polish OR Ukrainian Speaking",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101197+00:00"
+    },
+    "7076173": {
+      "title": "Technical Account Manager, German Speaking ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101199+00:00"
+    },
+    "7564690": {
+      "title": "Technical Account Manager, Risk",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101200+00:00"
+    },
+    "7782773": {
+      "title": "Technical Account Manager, Spanish Speaking",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101202+00:00"
+    },
+    "7204777": {
+      "title": "Technical Account Manager, Spanish Speaking",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101203+00:00"
+    },
+    "7366283": {
+      "title": "Technical Account Manager, Terminal",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101224+00:00"
+    },
+    "7812348": {
+      "title": "Technical Enablement Manager, Professional Services",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101226+00:00"
+    },
+    "7719602": {
+      "title": "Technical Partner Manager, AMER Banks",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101227+00:00"
+    },
+    "7779294": {
+      "title": "Technical Partner Manager, EMEA Payment Methods",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101228+00:00"
+    },
+    "7543679": {
+      "title": "Technical Partner Manager - Networks",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101230+00:00"
+    },
+    "7653021": {
+      "title": "Technical Program Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101231+00:00"
+    },
+    "7778643": {
+      "title": "Technical Program Manager,  Extensibility Programs",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101233+00:00"
+    },
+    "7749540": {
+      "title": "Technical Program Manager, Extensibility Programs",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101234+00:00"
+    },
+    "7417090": {
+      "title": "Technical Program Manager,  Identity and Access Management Programs",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101236+00:00"
+    },
+    "6932491": {
+      "title": "Technical Program Manager, Payments Experiences",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101237+00:00"
+    },
+    "7678655": {
+      "title": "Technical Program Manager, Risk",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101238+00:00"
+    },
+    "7685855": {
+      "title": "Technical Program Manager, Risk",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101240+00:00"
+    },
+    "7377101": {
+      "title": "Technical Solutions Engineer",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101241+00:00"
+    },
+    "7812235": {
+      "title": "Tech-Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101243+00:00"
+    },
+    "7718947": {
+      "title": "Tech Operations Associate, New Grad (Mexico)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101244+00:00"
+    },
+    "7645713": {
+      "title": "Transfer Pricing Operations Specialist",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101246+00:00"
+    },
+    "7587393": {
+      "title": "Treasury and Reserve Management, Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101247+00:00"
+    },
+    "7793069": {
+      "title": "Treasury Finance AI and Quantitative Analytics",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101258+00:00"
+    },
+    "7555681": {
+      "title": "Treasury Finance Operations",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101260+00:00"
+    },
+    "7587355": {
+      "title": " Treasury Manager, Luxembourg",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101261+00:00"
+    },
+    "7645711": {
+      "title": "Treasury Operations Specialist ",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101263+00:00"
+    },
+    "7807286": {
+      "title": "UK Public Policy & Government Relations Lead",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101264+00:00"
+    },
+    "7684280": {
+      "title": "University Recruiter (Fixed Term Contract)",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101266+00:00"
+    },
+    "7463165": {
+      "title": "US CCO & BSA Officer, Bridge",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101267+00:00"
+    },
+    "7530580": {
+      "title": "User Enablement Compliance Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101268+00:00"
+    },
+    "7618545": {
+      "title": "US Indirect Tax Compliance",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101270+00:00"
+    },
+    "7804290": {
+      "title": "Velocity Demand Generation Manager, Americas",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101271+00:00"
+    },
+    "7593583": {
+      "title": "Vendor Operations Manager",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101273+00:00"
+    },
+    "7738241": {
+      "title": "Verifications Operations Associate",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101274+00:00"
+    },
+    "7587814": {
+      "title": "Writer, Content Marketing",
+      "company": "stripe",
+      "first_seen": "2026-04-26T07:11:03.101276+00:00"
+    }
+  },
+  "last_run": "2026-04-26T07:11:03.101277+00:00"
+}
