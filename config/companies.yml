@@ -1,0 +1,29 @@
+# Companies to watch — add/remove as needed
+#
+# ATS options:
+#   greenhouse  ->  uses boards-api.greenhouse.io/v1/boards/{slug}/jobs
+#   lever       ->  uses api.lever.co/v0/postings/{slug}
+#   opencli     ->  runs a custom OpenCLI adapter (see agents/AGENT.md)
+
+companies:
+  # Greenhouse ATS
+  - slug: notion
+    ats: greenhouse
+
+  - slug: figma
+    ats: greenhouse
+
+  - slug: stripe
+    ats: greenhouse
+
+  # Lever ATS
+  - slug: linear
+    ats: lever
+
+  - slug: vercel
+    ats: lever
+
+  # Custom career page via OpenCLI (uncomment and configure)
+  # - slug: anthropic
+  #   ats: opencli
+  #   url: https://www.anthropic.com/careers
