@@ -1,57 +1,41 @@
 # ── Companies to watch ────────────────────────────────────────────────────────
 # ATS options:
-#   greenhouse  →  fast, uses boards-api.greenhouse.io/v1/boards/{slug}/jobs
-#   lever       →  fast, uses api.lever.co/v0/postings/{slug}
-#   ashby       →  fast, uses api.ashbyhq.com/posting-api/job-board/{slug}
-#   playwright  →  slower (~30s), headless Chrome for JS-rendered pages
-#                  REQUIRES: url field set to the full careers page URL
+#   greenhouse    ->  fast, uses boards-api.greenhouse.io/v1/boards/{slug}/jobs
+#   lever         ->  fast, uses api.lever.co/v0/postings/{slug}
+#   ashby         ->  fast, uses api.ashbyhq.com/posting-api/job-board/{slug}
+#   peoplestrong  ->  for PeopleStrong portals (direct API probe + Playwright fallback)
+#                     REQUIRES: url field
+#   playwright    ->  any JS-rendered site
+#                     REQUIRES: url field
 # ─────────────────────────────────────────────────────────────────────────────
 
 companies:
-
-  # ── AI / Tech companies (Ashby ATS) ──────────────────────────────────────
-  - slug: perplexity
-    ats: ashby
-
-  - slug: elevenlabs
-    ats: ashby
-
-  - slug: harvey
-    ats: ashby
 
   # ── Lever ATS ─────────────────────────────────────────────────────────────
   - slug: mistral
     ats: lever
 
-  - slug: linear
-    ats: lever
-
-  - slug: vercel
-    ats: lever
-
   # ── Greenhouse ATS ────────────────────────────────────────────────────────
-  - slug: notion
-    ats: greenhouse
-
   - slug: figma
     ats: greenhouse
 
   - slug: stripe
     ats: greenhouse
 
-  # ── Playwright — JS-rendered career portals (no public API) ───────────────
-  # Uses headless Chrome to intercept the internal API the page calls.
-
+  # ── PeopleStrong portals ──────────────────────────────────────────────────
   - slug: care-hospital
-    ats: playwright
+    ats: peoplestrong
     url: https://carecareers.peoplestrong.com/job/joblist
 
-  # ── Add more companies below ──────────────────────────────────────────────
-  # Fast (API):
-  # - slug: your-company
+  # ── Add more below ────────────────────────────────────────────────────────
+  # - slug: company-name
   #   ats: greenhouse   # or lever, ashby
   #
-  # Any JS-rendered site:
-  # - slug: any-company
-  #   ats: playwright
-  #   url: https://company.com/careers
+  # - slug: another-company
+  #   ats: peoplestrong
+  #   url: https://company.peoplestrong.com/job/joblist
+
+  # Previously active but now erroring (investigate before re-adding):
+  # perplexity / elevenlabs / harvey  -> ashby 401 (boards may have gone private)
+  # linear / vercel                   -> lever 404  (moved to different ATS)
+  # notion                            -> greenhouse 404 (slug changed)
