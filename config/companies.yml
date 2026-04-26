@@ -1,16 +1,15 @@
 # ── Companies to watch ────────────────────────────────────────────────────────
-# Add/remove companies freely.
-# ATS options: greenhouse | lever | ashby
-#
-# Finding the right slug:
-#   greenhouse → does boards-api.greenhouse.io/v1/boards/SLUG/jobs return JSON?
-#   lever      → does jobs.lever.co/SLUG exist?
-#   ashby      → does jobs.ashbyhq.com/SLUG exist?
+# ATS options:
+#   greenhouse  →  fast, uses boards-api.greenhouse.io/v1/boards/{slug}/jobs
+#   lever       →  fast, uses api.lever.co/v0/postings/{slug}
+#   ashby       →  fast, uses api.ashbyhq.com/posting-api/job-board/{slug}
+#   playwright  →  slower (~30s), headless Chrome for JS-rendered pages
+#                  REQUIRES: url field set to the full careers page URL
 # ─────────────────────────────────────────────────────────────────────────────
 
 companies:
 
-  # ── AI / Tech companies (no LinkedIn presence, own site only) ────────────
+  # ── AI / Tech companies (Ashby ATS) ──────────────────────────────────────
   - slug: perplexity
     ats: ashby
 
@@ -20,10 +19,17 @@ companies:
   - slug: harvey
     ats: ashby
 
+  # ── Lever ATS ─────────────────────────────────────────────────────────────
   - slug: mistral
     ats: lever
 
-  # ── Greenhouse companies ──────────────────────────────────────────────────
+  - slug: linear
+    ats: lever
+
+  - slug: vercel
+    ats: lever
+
+  # ── Greenhouse ATS ────────────────────────────────────────────────────────
   - slug: notion
     ats: greenhouse
 
@@ -33,6 +39,19 @@ companies:
   - slug: stripe
     ats: greenhouse
 
-  # ── Add your own below ────────────────────────────────────────────────────
-  # - slug: your-company-slug
-  #   ats: greenhouse
+  # ── Playwright — JS-rendered career portals (no public API) ───────────────
+  # Uses headless Chrome to intercept the internal API the page calls.
+
+  - slug: care-hospital
+    ats: playwright
+    url: https://carecareers.peoplestrong.com/job/joblist
+
+  # ── Add more companies below ──────────────────────────────────────────────
+  # Fast (API):
+  # - slug: your-company
+  #   ats: greenhouse   # or lever, ashby
+  #
+  # Any JS-rendered site:
+  # - slug: any-company
+  #   ats: playwright
+  #   url: https://company.com/careers
