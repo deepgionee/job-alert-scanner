@@ -1,78 +1,41 @@
-"""
-Notification dispatcher — sends new job alerts to configured channels.
-Set env vars to enable each channel:
-  TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID
-  SLACK_WEBHOOK_URL
-  DISCORD_WEBHOOK_URL
-  WEBHOOK_URL  (generic)
-"""
+"""Sends new job alerts to Telegram, Slack, Discord, or any webhook."""
+import os, json, urllib.request
 
-import os
-import json
-import urllib.request
-
-
-def _post_json(url: str, payload: dict):
-    body = json.dumps(payload).encode()
-    req = urllib.request.Request(
-        url, data=body, headers={"Content-Type": "application/json"}, method="POST"
-    )
+def _post(url, payload):
+    req = urllib.request.Request(url, data=json.dumps(payload).encode(),
+          headers={"Content-Type":"application/json"}, method="POST")
     try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            return resp.status
+        urllib.request.urlopen(req, timeout=10)
     except Exception as e:
-        print(f"  [notifier] POST failed to {url}: {e}")
-        return None
+        print(f"  [notifier] {e}")
 
+def _msg(job):
+    return (f"New Job Alert\n\n"
+            f"Role: {job['title']}\n"
+            f"Company: {job['company'].title()}\n"
+            f"Location: {job['location']}\n"
+            f"Apply: {job['url']}")
 
-def format_job_message(job: dict) -> str:
-    return (
-        f"New Job: {job['title']}\n"
-        f"Company: {job['company'].title()}\n"
-        f"Location: {job['location']}\n"
-        f"Apply: {job['url']}"
-    )
+def dispatch(jobs):
+    if not jobs: return
+    tok  = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat = os.getenv("TELEGRAM_CHAT_ID")
+    if tok and chat:
+        for j in jobs:
+            _post(f"https://api.telegram.org/bot{tok}/sendMessage",
+                  {"chat_id": chat, "text": _msg(j)})
+            print(f"  [telegram] {j['title']} @ {j['company']}")
 
+    slack = os.getenv("SLACK_WEBHOOK_URL")
+    if slack:
+        for j in jobs:
+            _post(slack, {"text": _msg(j)})
 
-def send_telegram(jobs: list[dict], bot_token: str, chat_id: str):
-    base = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-    for job in jobs:
-        _post_json(base, {
-            "chat_id": chat_id,
-            "text": format_job_message(job),
-            "parse_mode": "Markdown",
-        })
-        print(f"  [telegram] Sent: {job['title']} @ {job['company']}")
+    discord = os.getenv("DISCORD_WEBHOOK_URL")
+    if discord:
+        for j in jobs:
+            _post(discord, {"content": _msg(j)})
 
-
-def send_slack(jobs: list[dict], webhook_url: str):
-    for job in jobs:
-        _post_json(webhook_url, {
-            "text": format_job_message(job),
-        })
-        print(f"  [slack] Sent: {job['title']} @ {job['company']}")
-
-
-def send_discord(jobs: list[dict], webhook_url: str):
-    for job in jobs:
-        _post_json(webhook_url, {"content": format_job_message(job)})
-        print(f"  [discord] Sent: {job['title']} @ {job['company']}")
-
-
-def dispatch(jobs: list[dict]):
-    if not jobs:
-        return
-    tg_token = os.getenv("TELEGRAM_BOT_TOKEN")
-    tg_chat  = os.getenv("TELEGRAM_CHAT_ID")
-    if tg_token and tg_chat:
-        send_telegram(jobs, tg_token, tg_chat)
-    slack_url = os.getenv("SLACK_WEBHOOK_URL")
-    if slack_url:
-        send_slack(jobs, slack_url)
-    discord_url = os.getenv("DISCORD_WEBHOOK_URL")
-    if discord_url:
-        send_discord(jobs, discord_url)
-    generic_url = os.getenv("WEBHOOK_URL")
-    if generic_url:
-        _post_json(generic_url, {"new_jobs": jobs})
-        print(f"  [webhook] Posted {len(jobs)} new jobs")
+    webhook = os.getenv("WEBHOOK_URL")
+    if webhook:
+        _post(webhook, {"new_jobs": jobs})
