@@ -1,20 +1,13 @@
 """
 Playwright-based scanner for JavaScript-rendered career pages.
 
-Used for sites like PeopleStrong (Care Hospital) that:
-  - Render job listings via JavaScript (no static HTML)
-  - Don't expose a documented public API
-  - Make hidden XHR/fetch calls to an internal API when the page loads
-
-Strategy:
-  1. Launch headless Chromium
-  2. Intercept every network response that returns JSON with "job" in the URL
-  3. Extract and normalize job records from the captured payload
-  4. Fall back to DOM-based scraping if no API response is captured
+Intercepts ALL JSON network responses from the page and checks if they
+contain job data — no URL keyword filtering that blocks PeopleStrong.
+Used as fallback by peoplestrong.py, or directly via ats: playwright.
 
 Install:
   pip install playwright
-  playwright install chromium --with-deps   # (run once)
+  playwright install chromium --with-deps
 """
 
 import json
@@ -83,9 +76,8 @@ def _extract_jobs_from_json(data, slug, source_url):
 async def _dom_extract(page, slug, base_url):
     selectors = [
         ".job-card", ".job-listing", ".job-item",
-        "[class*=\'job-card\']", "[class*=\'job-listing\']",
         ".career-card", ".position-card",
-        "li.job", "div.job", "[data-testid*=\'job\']",
+        "li.job", "div.job",
     ]
     for sel in selectors:
         try:
@@ -132,15 +124,20 @@ async def _fetch_async(url, slug):
         ))
         page = await context.new_page()
 
+        # Intercept ALL JSON responses — no URL keyword filter
+        # (PeopleStrong API paths don't contain "job" in the URL)
         async def on_response(response):
             try:
-                ct = response.headers.get("content-type", "")
-                if "json" not in ct:
-                    return
                 rurl = response.url.lower()
-                if not any(kw in rurl for kw in (
-                    "job", "career", "posting", "vacancy", "position", "recruit", "opening"
+                # Skip static assets
+                if any(rurl.endswith(ext) for ext in (
+                    ".js", ".css", ".png", ".jpg", ".jpeg", ".svg",
+                    ".woff", ".woff2", ".ttf", ".ico", ".gif", ".map",
                 )):
+                    return
+                raw = await response.body()
+                stripped = raw.strip()
+                if not (stripped.startswith(b"{") or stripped.startswith(b"[")):
                     return
                 body = await response.json()
                 jobs = _extract_jobs_from_json(body, slug, url)
@@ -150,6 +147,7 @@ async def _fetch_async(url, slug):
                 pass
 
         page.on("response", on_response)
+
         try:
             await page.goto(url, wait_until="networkidle", timeout=40_000)
         except Exception:
@@ -172,11 +170,7 @@ async def _fetch_async(url, slug):
 
 
 def fetch_jobs(slug, url):
-    """
-    Fetch jobs from any JS-rendered career page.
-    slug: short name used as company identifier (e.g. 'care-hospital')
-    url:  full URL of the job listings page
-    """
+    """Fetch jobs from any JS-rendered career page."""
     try:
         return asyncio.run(_fetch_async(url, slug))
     except ImportError:
