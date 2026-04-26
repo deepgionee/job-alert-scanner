@@ -1,13 +1,9 @@
 """
-Playwright-based scanner for JavaScript-rendered career pages.
-
-Intercepts ALL JSON network responses from the page and checks if they
-contain job data — no URL keyword filtering that blocks PeopleStrong.
+Playwright-based scanner for JS-rendered career pages.
 Used as fallback by peoplestrong.py, or directly via ats: playwright.
 
-Install:
-  pip install playwright
-  playwright install chromium --with-deps
+Key fix: _extract_jobs_from_json now checks the 'response' key
+(PeopleStrong v2 API pattern) and handles locationName field.
 """
 
 import json
@@ -20,14 +16,15 @@ def _extract_jobs_from_json(data, slug, source_url):
     if isinstance(data, list):
         jobs_raw = data
     elif isinstance(data, dict):
-        for key in ("jobList", "jobs", "data", "result", "records",
+        # PeopleStrong v2 uses "response" key — check it first
+        for key in ("response", "jobList", "jobs", "data", "result", "records",
                     "jobPostings", "content", "items", "list", "positions"):
             val = data.get(key)
             if isinstance(val, list) and len(val) > 0:
                 jobs_raw = val
                 break
             if isinstance(val, dict):
-                for inner in ("jobList", "jobs", "records", "items"):
+                for inner in ("jobList", "jobs", "records", "items", "response"):
                     inner_val = val.get(inner)
                     if isinstance(inner_val, list) and len(inner_val) > 0:
                         jobs_raw = inner_val
@@ -41,15 +38,17 @@ def _extract_jobs_from_json(data, slug, source_url):
     for j in jobs_raw:
         if not isinstance(j, dict):
             continue
-        job_id  = str(j.get("jobId") or j.get("id") or j.get("jobCode") or "")
-        title   = (j.get("jobTitle") or j.get("title") or
-                   j.get("designation") or j.get("jobName") or "").strip()
-        posted  = (j.get("postedDate") or j.get("createdDate") or
-                   j.get("publishDate") or j.get("postDate") or "")
-        raw_loc = (j.get("location") or j.get("jobLocation") or
-                   j.get("city")     or j.get("workLocation") or "")
+        job_id = str(j.get("jobCode") or j.get("jobId") or j.get("id") or j.get("jobCode") or "")
+        title  = (j.get("jobTitle") or j.get("title") or
+                  j.get("designation") or j.get("jobName") or "").strip()
+        posted = (j.get("postedDate") or j.get("createdDate") or
+                  j.get("publishDate") or j.get("postDate") or "")
+        # PeopleStrong v2 uses locationName
+        raw_loc = (j.get("locationName") or j.get("location") or
+                   j.get("jobLocation") or j.get("city") or j.get("workLocation") or "")
         if isinstance(raw_loc, dict):
-            location = raw_loc.get("name") or raw_loc.get("city") or "Unknown"
+            location = (raw_loc.get("locationName") or raw_loc.get("name") or
+                        raw_loc.get("city") or "Unknown")
         else:
             location = str(raw_loc) if raw_loc else "Unknown"
         job_url = j.get("jobUrl") or j.get("applyUrl") or ""
@@ -74,11 +73,8 @@ def _extract_jobs_from_json(data, slug, source_url):
 
 
 async def _dom_extract(page, slug, base_url):
-    selectors = [
-        ".job-card", ".job-listing", ".job-item",
-        ".career-card", ".position-card",
-        "li.job", "div.job",
-    ]
+    selectors = [".job-card", ".job-listing", ".job-item",
+                 ".career-card", ".position-card", "li.job", "div.job"]
     for sel in selectors:
         try:
             cards = await page.query_selector_all(sel)
@@ -95,14 +91,10 @@ async def _dom_extract(page, slug, base_url):
                 if href and not href.startswith("http"):
                     href = urljoin(base_url, href)
                 jobs.append({
-                    "id":          href or f"{slug}-dom-{i}",
-                    "title":       text[:120],
-                    "company":     slug,
-                    "source":      "playwright-dom",
-                    "location":    "See listing",
-                    "url":         href or base_url,
-                    "posted_at":   "",
-                    "departments": [],
+                    "id": href or f"{slug}-dom-{i}", "title": text[:120],
+                    "company": slug, "source": "playwright-dom",
+                    "location": "See listing", "url": href or base_url,
+                    "posted_at": "", "departments": [],
                 })
             except Exception:
                 continue
@@ -119,17 +111,13 @@ async def _fetch_async(url, slug):
         browser = await pw.chromium.launch(headless=True)
         context = await browser.new_context(user_agent=(
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/124.0.0.0 Safari/537.36"
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         ))
         page = await context.new_page()
 
-        # Intercept ALL JSON responses — no URL keyword filter
-        # (PeopleStrong API paths don't contain "job" in the URL)
         async def on_response(response):
             try:
                 rurl = response.url.lower()
-                # Skip static assets
                 if any(rurl.endswith(ext) for ext in (
                     ".js", ".css", ".png", ".jpg", ".jpeg", ".svg",
                     ".woff", ".woff2", ".ttf", ".ico", ".gif", ".map",
@@ -147,7 +135,6 @@ async def _fetch_async(url, slug):
                 pass
 
         page.on("response", on_response)
-
         try:
             await page.goto(url, wait_until="networkidle", timeout=40_000)
         except Exception:
@@ -155,9 +142,8 @@ async def _fetch_async(url, slug):
         await page.wait_for_timeout(4_000)
 
         if not captured:
-            print(f"  [playwright] No API response captured — trying DOM extraction")
+            print(f"  [playwright] No job data in JSON responses — trying DOM extraction")
             captured = await _dom_extract(page, slug, url)
-
         await browser.close()
 
     seen_ids = set()
@@ -174,10 +160,8 @@ def fetch_jobs(slug, url):
     try:
         return asyncio.run(_fetch_async(url, slug))
     except ImportError:
-        print(
-            "  [playwright] ERROR: not installed.\n"
-            "  Run: pip install playwright && playwright install chromium --with-deps"
-        )
+        print("  [playwright] Not installed. Run: pip install playwright && "
+              "python -m playwright install chromium --with-deps")
         return []
     except Exception as e:
         print(f"  [playwright] {slug}: {e}")
