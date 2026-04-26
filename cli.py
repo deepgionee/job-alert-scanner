@@ -10,14 +10,13 @@ job-alert-scanner — main entry point
 import argparse
 from pathlib import Path
 import yaml
-from scanner import greenhouse, lever, ashby, store, notifier
+from scanner import greenhouse, lever, store, notifier
 
 CONFIG_PATH = Path(__file__).parent / "config" / "companies.yml"
 
 
 def load_companies():
     if not CONFIG_PATH.exists():
-        # fallback defaults if config not found
         return [
             {"slug": "notion",      "ats": "greenhouse"},
             {"slug": "perplexity",  "ats": "ashby"},
@@ -39,11 +38,25 @@ def scan(dry_run=False):
         slug = c["slug"]
         ats  = c.get("ats", "greenhouse").lower()
         print(f"  [{ats}] {slug}...", end=" ", flush=True)
-        if   ats == "greenhouse": jobs = greenhouse.fetch_jobs(slug)
-        elif ats == "lever":      jobs = lever.fetch_jobs(slug)
-        elif ats == "ashby":      jobs = ashby.fetch_jobs(slug)
+
+        if ats == "greenhouse":
+            jobs = greenhouse.fetch_jobs(slug)
+        elif ats == "lever":
+            jobs = lever.fetch_jobs(slug)
+        elif ats == "ashby":
+            from scanner import ashby
+            jobs = ashby.fetch_jobs(slug)
+        elif ats == "playwright":
+            url = c.get("url", "")
+            if not url:
+                print(f"SKIP (no url field)")
+                continue
+            from scanner import playwright_scanner
+            jobs = playwright_scanner.fetch_jobs(slug, url)
         else:
-            print(f"unknown ATS, skipping"); continue
+            print(f"unknown ATS, skipping")
+            continue
+
         print(f"{len(jobs)} listings")
         all_jobs.extend(jobs)
 
@@ -81,6 +94,6 @@ if __name__ == "__main__":
     p.add_argument("--demo",    action="store_true")
     p.add_argument("--dry-run", action="store_true")
     args = p.parse_args()
-    if args.demo:        demo()
-    elif args.scan:      scan(dry_run=args.dry_run)
-    else:                p.print_help()
+    if args.demo:      demo()
+    elif args.scan:    scan(dry_run=args.dry_run)
+    else:              p.print_help()
