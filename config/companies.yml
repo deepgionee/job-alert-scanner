@@ -1,12 +1,29 @@
-# Companies to watch — add/remove as needed
+# ── Companies to watch ────────────────────────────────────────────────────────
+# Add/remove companies freely.
+# ATS options: greenhouse | lever | ashby
 #
-# ATS options:
-#   greenhouse  ->  uses boards-api.greenhouse.io/v1/boards/{slug}/jobs
-#   lever       ->  uses api.lever.co/v0/postings/{slug}
-#   opencli     ->  runs a custom OpenCLI adapter (see agents/AGENT.md)
+# Finding the right slug:
+#   greenhouse → does boards-api.greenhouse.io/v1/boards/SLUG/jobs return JSON?
+#   lever      → does jobs.lever.co/SLUG exist?
+#   ashby      → does jobs.ashbyhq.com/SLUG exist?
+# ─────────────────────────────────────────────────────────────────────────────
 
 companies:
-  # Greenhouse ATS
+
+  # ── AI / Tech companies (no LinkedIn presence, own site only) ────────────
+  - slug: perplexity
+    ats: ashby
+
+  - slug: elevenlabs
+    ats: ashby
+
+  - slug: harvey
+    ats: ashby
+
+  - slug: mistral
+    ats: lever
+
+  # ── Greenhouse companies ──────────────────────────────────────────────────
   - slug: notion
     ats: greenhouse
 
@@ -16,14 +33,6 @@ companies:
   - slug: stripe
     ats: greenhouse
 
-  # Lever ATS
-  - slug: linear
-    ats: lever
-
-  - slug: vercel
-    ats: lever
-
-  # Custom career page via OpenCLI (uncomment and configure)
-  # - slug: anthropic
-  #   ats: opencli
-  #   url: https://www.anthropic.com/careers
+  # ── Add your own below ────────────────────────────────────────────────────
+  # - slug: your-company-slug
+  #   ats: greenhouse
