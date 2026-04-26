@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Data (seen jobs store — regenerated at runtime)
+data/seen_jobs.json
+
+# Logs
+logs/
+
+# Secrets
+.env
+setup_github.py
