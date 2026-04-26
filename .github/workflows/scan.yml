@@ -3,7 +3,7 @@ name: Job Alert Scanner
 on:
   schedule:
     - cron: '*/5 * * * *'    # every 5 minutes, 24/7, free tier
-  workflow_dispatch:           # also allows manual "Run workflow" button
+  workflow_dispatch:           # manual "Run workflow" button in Actions tab
 
 permissions:
   contents: write              # needed to commit seen_jobs.json back to repo
@@ -22,15 +22,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install pyyaml
+      - name: Install Python dependencies
+        run: pip install pyyaml playwright
+
+      - name: Install Playwright browser
+        run: python -m playwright install chromium --with-deps
 
       - name: Run job scanner
         run: python cli.py --scan
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
-          SLACK_WEBHOOK_URL:  ${{ secrets.SLACK_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
+          SLACK_WEBHOOK_URL:   ${{ secrets.SLACK_WEBHOOK_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Save seen-jobs state back to repo
